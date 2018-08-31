@@ -30,8 +30,8 @@
     padding: 0;
     position: fixed;
     height:100vh;
-    background-color: rgb(0, 0, 0);
-    opacity: 0.8;
+    background-color: #ffff;
+    
     transition: all 500ms;
     /* overflow: hidden; */
     
@@ -40,8 +40,8 @@
   }
 
   header{
-    background-color: rgb(0, 0, 0);
-    opacity: 0.8;
+    background-color: rgb(170, 17, 25);
+    
     color: #ffff;
     height: 35px;
     position: fixed;
@@ -57,13 +57,13 @@
   .sidebar-nav li a {
     display: block;
     text-decoration: none;
-    color: #ffff;
+    color: rgb(0, 0, 0);
   }
   
   .sidebar-nav li a:hover {
     text-decoration: none;
     color: #ffff;
-    background: rgba(255, 2, 14, 0.466);
+    background: rgb(170, 17, 25);
   }
 
   li{
