@@ -1,5 +1,5 @@
 export class TablaCatalogos {
-    nombre: string;
+    curso: string;
     fecha: string;
     status: string;
 }
