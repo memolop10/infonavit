@@ -1,87 +1,33 @@
-<div id="principal">
+<div id="principal" role="tabpanel">
 
-<ul class="nav nav-tabs">
-  <li class="nav-item">
-    <a class="nav-link active" routerLink="/curso">Curso</a>
+<ul class="nav nav-tabs" role="tablist">
+  <li class="nav-item" role="presentation">
+    <a class="nav-link active" routerLink="/curso" aria-controls="" data-toggle="tab" role="tab">Curso</a>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" routerLink="/destino">Destino</a>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" routerLink="/destino" aria-controls="" data-toggle="tab" role="tab">Destino</a>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/ubicacion">Ubicacion</a>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" routerLink="/ubicacion" aria-controls="" data-toggle="tab" role="tab">Ubicacion</a>
   </li>
-  <li class="nav-item">
-    <a class="nav-link disabled" href="/telemento">Tipo de Elemento</a>
-  </li>
-
-  <li class="nav-item">
-    <a class="nav-link disabled" href="eaprendizaje">Elemento de Aprendizaje</a>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" routerLink="/telemento" aria-controls="" data-toggle="tab" role="tab">Tipo de Elemento</a>
   </li>
 
-  <li class="nav-item">
-    <a class="nav-link disabled" href="filtro">Filtro</a>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" routerLink="/eaprendizaje" aria-controls="" data-toggle="tab" role="tab">Elemento de Aprendizaje</a>
+  </li>
+
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" routerLink="/filtro" aria-controls="" data-toggle="tab" role="tab">Filtro</a>
   </li>
 </ul>
 </div>
-<button class="btn btn-default" data-toggle="modal" data-target="#exampleModal">
-<i class="fa fa-plus-circle"></i><label for="">Crear Nuevo Curso</label>
-</button>
 
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          ...
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
-        </div>
-      </div>
-    </div>
+<div class="tab-content">
+  <div role="tabpanel" class="tab-pane active">
+
   </div>
 
-<div class="container ">
-  <div class="row">
-    <div class="col-8">
-        <table class="table">
-            <thead>
-              <tr>
-                <th scope="col">Nombre</th>
-                <th scope="col">Fecha de creacion</th>
-                <th scope="col">Estatus</th>
-                <th scope="col">Handle</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
-              </tr>
-              <!-- <tr>
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td>Larry</td>
-                <td>the Bird</td>
-                <td>@twitter</td>
-              </tr> -->
-            </tbody>
-          </table>
-
-    </div>
-  </div>
 </div>
 

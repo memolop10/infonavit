@@ -18,11 +18,11 @@ import { ReporteadorComponent } from './reporteador/reporteador.component';
 
     const routes: Routes = [
       {
-        path: 'bienvenido',
+        path: '',
         component:BienvenidoComponent
       },
       {
-        path: '',
+        path: 'catalogos',
         component:CatalogosComponent
       },
       {

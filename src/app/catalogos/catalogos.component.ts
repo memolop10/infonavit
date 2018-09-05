@@ -8,11 +8,13 @@ import { ServcatalogosService } from '../servcatalogos.service';
   styleUrls: ['./catalogos.component.css']
 })
 export class CatalogosComponent implements OnInit {
+  navcat:string[] = ['curso','destino','ubicacion','telemento','eaprendizaje','filtro']
+
   tablaCatalogos:TablaCatalogos [] = [];
   constructor(private ServcatalogosService:ServcatalogosService){}
 
   ngOnInit() {
-    this.getCatalogos();
+    // this.getCatalogos();
   }
 
 }
