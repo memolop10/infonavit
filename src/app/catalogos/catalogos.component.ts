@@ -8,8 +8,8 @@ import { ServcatalogosService } from '../servcatalogos.service';
   styleUrls: ['./catalogos.component.css']
 })
 export class CatalogosComponent implements OnInit {
-  navcat:string[] = ['curso','destino','ubicacion','telemento','eaprendizaje','filtro'];
-  selectedcat = this.navcat[0];
+ 
+
 
   tablaCatalogos:TablaCatalogos [] = [];
   constructor(private ServcatalogosService:ServcatalogosService){}

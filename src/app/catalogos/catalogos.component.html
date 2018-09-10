@@ -1,30 +1,439 @@
-<div id="principal" role="tabpanel">
-
-<ul class="nav nav-tabs" role="tablist">
+<ul class="nav nav-tabs">
   <li class="nav-item" role="presentation">
-    <a class="nav-link active" routerLink="/curso" aria-controls="" data-toggle="tab" role="tab">Curso</a>
+    <a class="nav-link active" href="#curso" aria-controls="curso" data-toggle="tab" role="tab">Curso</a>
   </li>
   <li class="nav-item" role="presentation">
-    <a class="nav-link" routerLink="/destino" aria-controls="" data-toggle="tab" role="tab">Destino</a>
+    <a class="nav-link" href="#destino" aria-controls="destino" data-toggle="tab" role="tab">Destino</a>
   </li>
   <li class="nav-item" role="presentation">
-    <a class="nav-link" routerLink="/ubicacion" aria-controls="" data-toggle="tab" role="tab">Ubicacion</a>
+    <a class="nav-link" href="#ubicacion" aria-controls="ubicacion" data-toggle="tab" role="tab">Ubicacion</a>
   </li>
   <li class="nav-item" role="presentation">
-    <a class="nav-link" routerLink="/telemento" aria-controls="" data-toggle="tab" role="tab">Tipo de Elemento</a>
+    <a class="nav-link" href="#telemento" aria-controls="telemento" data-toggle="tab" role="tab">Tipo de Elemento</a>
   </li>
-
   <li class="nav-item" role="presentation">
-    <a class="nav-link" routerLink="/eaprendizaje" aria-controls="" data-toggle="tab" role="tab">Elemento de Aprendizaje</a>
+    <a class="nav-link" href="#eaprendizaje" aria-controls="eaprendizaje" data-toggle="tab" role="tab" >Elemento de Aprendizaje</a>
   </li>
 
   <li class="nav-item" role="presentation">
-    <a class="nav-link" routerLink="/filtro" aria-controls="" data-toggle="tab" role="tab">Filtro</a>
+    <a class="nav-link" href="#filtro" aria-controls="filtro" data-toggle="tab" role="tab">Filtro</a>
   </li>
+
 </ul>
+
+
+ 
+<div class="tab-content"> 
+   <!-- seccion curso -->
+    <div role="tabpanel" class="tab-pane active" id="curso">
+        <!-- modal -->
+<button class="btn btn-default" data-toggle="modal" data-target="#exampleModal">
+  <i class="fa fa-plus-circle"></i><label for="">Crear Nuevo Curso</label>
+  </button>
+  
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- tabla -->
+  <div class="container ">
+    <div class="row">
+      <div class="col-8">
+          <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Nombre</th>
+                  <th scope="col">Fecha de creacion</th>
+                  <th scope="col">Estatus</th>
+                  <th scope="col">Handle</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <!-- <tr>
+                  <th scope="row">2</th>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Larry</td>
+                  <td>the Bird</td>
+                  <td>@twitter</td>
+                </tr> -->
+              </tbody>
+            </table>
+  
+      </div>
+    </div>
+  </div>
+  
+
+    </div>
+
+    <!-- seccion destino -->
+    <div role="tabpanel" class="tab-pane" id="destino">
+        <!-- modal -->
+<button class="btn btn-default" data-toggle="modal" data-target="#exampleModal2">
+  <i class="fa fa-plus-circle"></i><label for="">Crear Nuevo Destino</label>
+  </button>
+  
+  <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- tabla -->
+  <div class="container ">
+    <div class="row">
+      <div class="col-8">
+          <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Nombre</th>
+                  <th scope="col">Fecha de creacion</th>
+                  <th scope="col">Estatus</th>
+                  <th scope="col">Handle</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <!-- <tr>
+                  <th scope="row">2</th>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Larry</td>
+                  <td>the Bird</td>
+                  <td>@twitter</td>
+                </tr> -->
+              </tbody>
+            </table>
+  
+      </div>
+    </div>
+  </div>
+  
+
+    </div>
+
+
+    <!-- seccion ubicacion -->
+    <div role="tabpanel" class="tab-pane" id="ubicacion">
+        <!-- modal -->
+<button class="btn btn-default" data-toggle="modal" data-target="#exampleModal3">
+  <i class="fa fa-plus-circle"></i><label for="">Crear Nuevo ubicacion</label>
+  </button>
+  
+  <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- tabla -->
+  <div class="container ">
+    <div class="row">
+      <div class="col-8">
+          <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Nombre</th>
+                  <th scope="col">Fecha de creacion</th>
+                  <th scope="col">Estatus</th>
+                  <th scope="col">Handle</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <!-- <tr>
+                  <th scope="row">2</th>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Larry</td>
+                  <td>the Bird</td>
+                  <td>@twitter</td>
+                </tr> -->
+              </tbody>
+            </table>
+  
+      </div>
+    </div>
+  </div>
+  
+
+    </div>
+
+    <!-- seccion tipo de elemento -->
+    <div role="tabpanel" class="tab-pane" id="telemento">
+        <!-- modal -->
+<button class="btn btn-default" data-toggle="modal" data-target="#exampleModal4">
+  <i class="fa fa-plus-circle"></i><label for="">Crear Nuevo Tipo de Elemento</label>
+  </button>
+  
+  <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- tabla -->
+  <div class="container ">
+    <div class="row">
+      <div class="col-8">
+          <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Nombre</th>
+                  <th scope="col">Fecha de creacion</th>
+                  <th scope="col">Estatus</th>
+                  <th scope="col">Handle</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <!-- <tr>
+                  <th scope="row">2</th>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Larry</td>
+                  <td>the Bird</td>
+                  <td>@twitter</td>
+                </tr> -->
+              </tbody>
+            </table>
+  
+      </div>
+    </div>
+  </div>
+  
+
+    </div>
+
+    <!-- seccion elemento aprendizaje -->
+    <div role="tabpanel" class="tab-pane" id="eaprendizaje">
+        <!-- modal -->
+<button class="btn btn-default" data-toggle="modal" data-target="#exampleModal5">
+  <i class="fa fa-plus-circle"></i><label for="">Crear Nuevo Elemento de Aprendizaje</label>
+  </button>
+  
+  <div class="modal fade" id="exampleModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- tabla -->
+  <div class="container ">
+    <div class="row">
+      <div class="col-8">
+          <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Nombre</th>
+                  <th scope="col">Fecha de creacion</th>
+                  <th scope="col">Estatus</th>
+                  <th scope="col">Handle</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <!-- <tr>
+                  <th scope="row">2</th>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Larry</td>
+                  <td>the Bird</td>
+                  <td>@twitter</td>
+                </tr> -->
+              </tbody>
+            </table>
+  
+      </div>
+    </div>
+  </div>
+  
+
+    </div>
+
+    <!-- seccion filtro -->
+    <div role="tabpanel" class="tab-pane" id="filtro">
+        <!-- modal -->
+<button class="btn btn-default" data-toggle="modal" data-target="#exampleModal6">
+  <i class="fa fa-plus-circle"></i><label for="">Crear Nuevo filtro</label>
+  </button>
+  
+  <div class="modal fade" id="exampleModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- tabla -->
+  <div class="container ">
+    <div class="row">
+      <div class="col-8">
+          <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Nombre</th>
+                  <th scope="col">Fecha de creacion</th>
+                  <th scope="col">Estatus</th>
+                  <th scope="col">Handle</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <!-- <tr>
+                  <th scope="row">2</th>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Larry</td>
+                  <td>the Bird</td>
+                  <td>@twitter</td>
+                </tr> -->
+              </tbody>
+            </table>
+  
+      </div>
+    </div>
+  </div>
+  
+
+    </div>
+
+    
+
 </div>
 
-<div class="tab-content">
-  <div >
-  
-</div>
