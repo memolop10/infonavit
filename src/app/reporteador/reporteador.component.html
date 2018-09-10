@@ -1,16 +1,30 @@
-<div id="principal">
-
-  <ul class="nav nav-tabs">
-    <li class="nav-item">
-      <a class="nav-link active" href="#">Derechohabientes</a>
+<ul class="nav nav-tabs">
+    <li class="nav-item" role="presentation">
+      <a class="nav-link active" href="#dhabientes" aria-controls="dhabientes" data-toggle="tab" role="tab">Derechohabientes</a>
     </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Destinos</a>
+    <li class="nav-item" role="presentation">
+      <a class="nav-link" href="#destinos" aria-controls="destinos" data-toggle="tab" role="tab">Destinos</a>
     </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Elementos</a>
+    <li class="nav-item" role="presentation">
+      <a class="nav-link" href="#elementos" aria-controls="elementos" data-toggle="tab" role="tab">Elementos</a>
     </li>
     
   </ul>
   
+  
+
+  <div class="tab-content"> 
+
+      <div role="tabpanel" class="tab-pane active" id="dhabientes">
+        contenido Derechohabientes
+      </div>
+
+      <div role="tabpanel" class="tab-pane" id="destinos">
+        contenido destinos
+        </div>
+
+        <div role="tabpanel" class="tab-pane" id="elementos">
+
+          contenido elementos
+          </div>
   </div>
