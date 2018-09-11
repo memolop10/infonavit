@@ -69,13 +69,14 @@ ul.listaInfonavit {
   line-height: 40px;
   list-style: none;
   
-  padding: 10px 0;
+  
 }
 
 .sidebar-nav li a {
   display: block;
   text-decoration: none;
   color: rgb(0, 0, 0);
+  padding: 10px 0;
 }
 .sidebar-nav[_ngcontent-c1] li[_ngcontent-c1]:hover {
   background: #aa1119;
