@@ -47,6 +47,7 @@ app-sidebar {
 
 .table thead th {
     color: red;
+    border:none
 }
 
 table.table {

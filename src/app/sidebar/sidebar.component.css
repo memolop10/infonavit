@@ -159,9 +159,17 @@ margin-left: -250px;
 
 .sidebar-nav[_ngcontent-c1][_ngcontent-c1] li[_ngcontent-c1][_ngcontent-c1]:hover a {
   color: white;
+  font-size: 17px !important;
 }
 
 .sidebar-nav[_ngcontent-c1] li[_ngcontent-c1] a[_ngcontent-c1] {
   font-size: 15px;
-  font-weight: 400;
+    font-weight: 400;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+span{
+  font-size: 11px;
 }
