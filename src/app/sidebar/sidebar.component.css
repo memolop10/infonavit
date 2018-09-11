@@ -41,7 +41,7 @@ img.iconito {
   position: fixed;
   height:100vh;
   background-color: #fff;
-  
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, .5);
   transition: all 500ms;
   /* overflow: hidden; */
 }
@@ -61,15 +61,15 @@ header{
 
 ul.listaInfonavit {
   margin-left: -40px;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, .5);
+  
 }
 
 .sidebar-nav li {
   text-indent: 20px;
   line-height: 40px;
   list-style: none;
-  margin-left: 40px;
-  padding-top: 25px;
+  
+  padding: 10px 0;
 }
 
 .sidebar-nav li a {
@@ -156,3 +156,12 @@ visibility: hidden;
 #check:checked ~ .sidebar-nav{
 margin-left: -250px;
 }  */
+
+.sidebar-nav[_ngcontent-c1][_ngcontent-c1] li[_ngcontent-c1][_ngcontent-c1]:hover a {
+  color: white;
+}
+
+.sidebar-nav[_ngcontent-c1] li[_ngcontent-c1] a[_ngcontent-c1] {
+  font-size: 15px;
+  font-weight: 400;
+}
