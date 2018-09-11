@@ -172,4 +172,7 @@ margin-left: -250px;
 
 span{
   font-size: 11px;
+  position: relative;
+  left: 60px;
+  bottom: 12px;
 }
