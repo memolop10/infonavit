@@ -78,7 +78,7 @@ ul.listaInfonavit {
   color: rgb(0, 0, 0);
   padding: 10px 0;
 }
-.sidebar-nav[_ngcontent-c1] li[_ngcontent-c1]:hover {
+.sidebar-nav[_ngcontent-c1] li[_ngcontent-c1]:hover{
   background: #aa1119;
 }
 /* .sidebar-nav li a:hover {
@@ -171,7 +171,7 @@ margin-left: -250px;
   height: 100%;
 }
 
-span{
+span.usuario{
   font-size: 11px;
   position: relative;
   left: 60px;

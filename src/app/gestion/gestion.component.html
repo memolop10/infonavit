@@ -1,80 +1,155 @@
 <ul class="nav nav-tabs">
-    <li class="nav-item" role="presentation">
-      <a class="nav-link active" href="#usuarios" aria-controls="usuarios" data-toggle="tab" role="tab">Usuarios</a>
-    </li>
-    <li class="nav-item" role="presentation">
-      <a class="nav-link" href="#alta" aria-controls="alta" data-toggle="tab" role="tab">Alta de Usuarios</a>
-    </li>
-    
-    
-  </ul>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link active" href="#usuarios" aria-controls="usuarios" data-toggle="tab" role="tab">Usuarios</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" href="#alta" aria-controls="alta" data-toggle="tab" role="tab">Alta de Usuarios</a>
+  </li>
 
-  
-<div class="tab-content"> 
-    <!-- seccion usuarios -->
-     <div role="tabpanel" class="tab-pane active" id="usuarios">
-         <!-- modal -->
- <button class="btn btn-default" data-toggle="modal" data-target="#exampleModal">
-   <i class="fa fa-plus-circle"></i><label for="">Dar de Alta un Nuevo Usuario</label>
-   </button>
-   
-   <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-       <div class="modal-dialog" role="document">
-         <div class="modal-content">
-           <div class="modal-header">
-             <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-               <span aria-hidden="true">&times;</span>
-             </button>
-           </div>
-           <div class="modal-body">
-             ...
-           </div>
-           <div class="modal-footer">
-             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-             <button type="button" class="btn btn-primary">Save changes</button>
-           </div>
-         </div>
-       </div>
-     </div>
-     <!-- tabla -->
-   <div class="container ">
-     <div class="row">
-       <div class="col-8">
-           <table class="table">
-               <thead>
-                 <tr>
-                   <th scope="col">Nombre</th>
-                   <th scope="col">apellidos</th>
-                   <th scope="col">Correo Electronico</th>
-                   <th scope="col">Ultimo Acceso</th>
-                 </tr>
-               </thead>
-               <tbody>
-                 <tr>
-                   <th scope="row">1</th>
-                   <td>Mark</td>
-                   <td>Otto</td>
-                   <td>@mdo</td>
-                 </tr>
-                 <!-- <tr>
-                   <th scope="row">2</th>
-                   <td>Jacob</td>
-                   <td>Thornton</td>
-                   <td>@fat</td>
-                 </tr>
-                 <tr>
-                   <th scope="row">3</th>
-                   <td>Larry</td>
-                   <td>the Bird</td>
-                   <td>@twitter</td>
-                 </tr> -->
-               </tbody>
-             </table>
-   
-       </div>
-     </div>
-   </div>
-  
+
+</ul>
+
+
+<div class="tab-content">
+  <!-- seccion usuarios -->
+  <div role="tabpanel" class="tab-pane active" id="usuarios">
+    <!-- modal -->
+    <button class="btn btn-default" data-toggle="modal" data-target="#exampleModal">
+      <i class="fa fa-plus-circle"></i><label for="">Dar de Alta un Nuevo Usuario</label>
+    </button>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- filtro -->
+
+    <input type="search" id="buscarcurso" placeholder="Buscar plantilla">
+    
+    <!-- tabla -->
+    <div class="container ">
+      <div class="row">
+        <div class="col-8">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Nombre</th>
+                <th scope="col">apellidos</th>
+                <th scope="col">Correo Electronico</th>
+                <th scope="col">Ultimo Acceso</th>
+                <th scope="col"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>Fernando</th>
+                <td>Aguilar Hernandez</td>
+                <td>fernando.aguilar@infonavit.gob.mx</td>
+                <td>23/may/2018</td>
+                <td><span class="icono-edit"></span></td>
+
+              </tr>
+              <tr>
+                <th scope="row">Maria de Jesus</th>
+                <td>Loera Ramirez</td>
+                <td>maria.loera@infonavit.gob.mx</td>
+                <td>18/may/2018</td>
+                <td><span class="icono-edit"></span></td>
+              </tr>
+              <tr>
+                <th scope="row">Ramón</th>
+                <td>López Velarde</td>
+                <td>ramon.lopez@infonavit.gob.mx</td>
+                <td>30/abr/2018</td>
+                <td><span class="icono-edit"></span></td>
+              </tr>
+
+              <tr>
+                  <th scope="row">Eduardo</th>
+                  <td>Mújica Tirado</td>
+                  <td>eduardo.mujica@infonavit.gob.mx</td>
+                  <td>15/abr/2018</td>
+                  <td><span class="icono-edit"></span></td>
+                </tr>
+
+                <tr>
+                    <th scope="row">Mariana</th>
+                    <td>Sánchez Licona</td>
+                    <td>mariana.sanchez@infonavit.gob.mx</td>
+                    <td>28/mar/2018</td>
+                    <td><span class="icono-edit"></span></td>
+                  </tr>
+
+                  <tr>
+                      <th scope="row">Gabriela</th>
+                      <td>Hernández Romero</td>
+                      <td>mariana.sanchez@infonavit.gob.mx</td>
+                      <td>21/mar/2018</td>
+                      <td><span class="icono-edit"></span></td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Luis Adolfo</th>
+                        <td>Álvarez Gómez</td>
+                        <td>luis.alvarez@infonavit.gob.mx</td>
+                        <td>24/feb/2018</td>
+                        <td><span class="icono-edit"></span></td>
+                      </tr>
+
+                      <tr>
+                          <th scope="row">Carlos Javier</th>
+                          <td>Ortega Velazco</td>
+                          <td>carlos.ortega@infonavit.gob.mx</td>
+                          <td>14/feb/2018</td>
+                          <td><span class="icono-edit"></span></td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Guadalupe</th>
+                            <td>Calderón Calles</td>
+                            <td>guadalupe.calderon@infonavit.gob.mx</td>
+                            <td>2/feb/2018</td>
+                            <td><span class="icono-edit"></span></td>
+                          </tr>
+
+                          <tr>
+                              <th scope="row">Ramiro</th>
+                              <td>Muñoz Cárdenas</td>
+                              <td>ramiro.munoz@infonavit.gob.mx</td>
+                              <td>6/ene/2018</td>
+                              <td><span class="icono-edit"></span></td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">Pedro</th>
+                                <td>Espinoza Estrada</td>
+                                <td>pedro.espinoza@infonavit.gob.mx</td>
+                                <td>1/ene/2018</td>
+                                <td><span class="icono-edit"></span></td>
+                              </tr>
+            </tbody>
+          </table>
+
+        </div>
+      </div>
+    </div>
+
   </div>
 </div>

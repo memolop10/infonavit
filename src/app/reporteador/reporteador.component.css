@@ -86,3 +86,80 @@ body:after {
     ul.nav.nav-tabs {
         width: 95%;
     }
+
+    #buscardhabientes {
+        position: absolute;
+        background: url('/assets/lupa.PNG');
+        background-repeat: no-repeat;
+        background-position: right;
+        width: 342px;
+        display: block;
+        margin-top: 9px;
+        margin-top: 9px;
+        
+        background-color: rgba(235, 235, 235, 0.993)
+    }
+    
+    .tab-pane {
+        position: relative;
+    }
+
+    #nss{
+        margin-left: 20px;
+    margin-top: 22px;
+    }
+
+
+    #buscarde {
+        position: absolute;
+    
+        background: url('/assets/calendario.PNG');
+        background-repeat: no-repeat;
+        width: 48%;
+        background-position: right;
+        margin-top: 9px;
+        top: 20px;
+        background-color: #ffff;
+        left: 0;
+    }
+
+    #buscarhasta {
+        position: absolute;
+        display: block;
+        background: url('/assets/calendario.PNG');
+        background-repeat: no-repeat;
+        
+        width: 48%;
+        background-position: right;
+        margin-top: 9px;
+        background-color:#ffff;
+        right: 0;
+    }
+    
+    .tab-pane {
+        position: relative;
+    }
+
+    #periodo{
+        display: inline-block;
+        width: 48%;
+        position: relative;
+        margin-left: 25px;
+        margin-top: 25px;
+    }
+    .btn-group{
+        display: inline-block;
+        /* position: absolute; */
+    }
+
+    #sdestino{
+        
+        display: inline-block;
+        width: 48%;
+    }
+
+    .btn-group[_ngcontent-c2] {
+        display: inline-block;
+        width: 40%;
+        
+    }

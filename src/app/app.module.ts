@@ -11,12 +11,7 @@ import { ReporteadorComponent } from './reporteador/reporteador.component';
 import { GestionComponent } from './gestion/gestion.component';
 import { CsesionComponent } from './csesion/csesion.component';
 import { AppRoutingModule } from './/app-routing.module';
-import { CursoComponent } from './curso/curso.component';
-import { DestinoComponent } from './destino/destino.component';
-import { UbicacionComponent } from './ubicacion/ubicacion.component';
-import { TelementoComponent } from './telemento/telemento.component';
-import { EaprendizajeComponent } from './eaprendizaje/eaprendizaje.component';
-import { FiltroComponent } from './filtro/filtro.component';
+
 
 @NgModule({
   declarations: [
@@ -29,12 +24,7 @@ import { FiltroComponent } from './filtro/filtro.component';
     GestionComponent,
     CsesionComponent,
     BienvenidoComponent,
-    CursoComponent,
-    DestinoComponent,
-    UbicacionComponent,
-    TelementoComponent,
-    EaprendizajeComponent,
-    FiltroComponent
+   
   ],
   imports: [
     BrowserModule,

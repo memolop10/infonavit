@@ -21,30 +21,7 @@ import { ReporteadorComponent } from './reporteador/reporteador.component';
         path: 'catalogos',
         component:CatalogosComponent
       },
-      // {
-      //   path: 'curso',
-      //   component:CursoComponent
-      // },
-      // {
-      //   path: 'destino',
-      //   component:DestinoComponent
-      // },
-      // {
-      //   path: 'ubicacion',
-      //   component:UbicacionComponent
-      // },
-      // {
-      //   path: 'telemento',
-      //   component:TelementoComponent
-      // },
-      // {
-      //   path: 'eaprendizaje',
-      //   component:EaprendizajeComponent
-      // },
-      // {
-      //   path: 'filtro',
-      //   component:FiltroComponent
-      // },
+      
       {
         path: 'csesion',
         component:CsesionComponent

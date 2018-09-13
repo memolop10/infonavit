@@ -1,3 +1,5 @@
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"/>
+
 <ul class="nav nav-tabs">
   <li class="nav-item" role="presentation">
     <a class="nav-link active" href="#curso" aria-controls="curso" data-toggle="tab" role="tab">Curso</a>
@@ -12,7 +14,8 @@
     <a class="nav-link" href="#telemento" aria-controls="telemento" data-toggle="tab" role="tab">Tipo de Elemento</a>
   </li>
   <li class="nav-item" role="presentation">
-    <a class="nav-link" href="#eaprendizaje" aria-controls="eaprendizaje" data-toggle="tab" role="tab" >Elemento de Aprendizaje</a>
+    <a class="nav-link" href="#eaprendizaje" aria-controls="eaprendizaje" data-toggle="tab" role="tab">Elemento de
+      Aprendizaje</a>
   </li>
 
   <li class="nav-item" role="presentation">
@@ -22,16 +25,17 @@
 </ul>
 
 
- 
-<div class="tab-content"> 
-   <!-- seccion curso -->
-    <div role="tabpanel" class="tab-pane active" id="curso">
-        <!-- modal -->
-<button class="btn btn-default" data-toggle="modal" data-target="#exampleModal">
-  <i class="fa fa-plus-circle"></i><label for="">Crear Nuevo Curso</label>
-  </button>
-  
-  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+<div class="tab-content">
+  <!-- seccion curso -->
+  <div role="tabpanel" class="tab-pane active" id="curso">
+    <!-- modal -->
+    <button class="btn btn-default" data-toggle="modal" data-target="#exampleModal">
+      <i class="fa fa-plus-circle"></i><label for="">Crear Nuevo Curso</label>
+    </button>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
@@ -50,56 +54,123 @@
         </div>
       </div>
     </div>
+    <!-- filtro -->
+
+    <input type="search" id="buscarcurso" placeholder="Buscar curso">
+
+
+
+
+
+
+
     <!-- tabla -->
-  <div class="container ">
-    <div class="row">
-      <div class="col-8">
+    <div class="container ">
+      <div class="row">
+        <div class="col-8">
           <table class="table">
-              <thead>
-                <tr>
-                  <th scope="col">Nombre</th>
-                  <th scope="col">Fecha de creacion</th>
-                  <th scope="col">Estatus</th>
-                  <th scope="col">Handle</th>
+            <thead>
+              <tr>
+                <th scope="col">Nombre</th>
+                <th scope="col">Fecha de creacion</th>
+                <th scope="col">Estatus</th>
+                <th scope="col"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>Saber mas para decidir mejor</th>
+                <td>23/may/2018</td>
+                <td><span class="icono-estatus"></span></td>
+                <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+              </tr>
+              <tr>
+                  <th scope="row">Como obtener un credito para construccion</th>
+                  <td>18/may/2018</td>
+                  <td><span class="icono-estatus"></span></td>
+                <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
                 </tr>
-              </thead>
-              <tbody>
                 <tr>
-                  <th scope="row">1</th>
-                  <td>Mark</td>
-                  <td>Otto</td>
-                  <td>@mdo</td>
-                </tr>
-                <!-- <tr>
-                  <th scope="row">2</th>
-                  <td>Jacob</td>
-                  <td>Thornton</td>
-                  <td>@fat</td>
-                </tr>
+                  <th scope="row">Como pedir un credito infonavit</th>
+                  <td>30/abr/2018</td>
+                  <td><span class="icono-estatus2"></span></td>
+                <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                </tr> 
+
                 <tr>
-                  <th scope="row">3</th>
-                  <td>Larry</td>
-                  <td>the Bird</td>
-                  <td>@twitter</td>
-                </tr> -->
-              </tbody>
-            </table>
-  
+                    <th scope="row">Requisitos para tramitar un credito</th>
+                    <td>15/abr/2018</td>
+                    <td><span class="icono-estatus"></span></td>
+                  <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                  </tr> 
+
+                  <tr>
+                      <th scope="row">Credito para construccion</th>
+                      <td>28/mar/2018</td>
+                      <td><span class="icono-estatus"></span></td>
+                    <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                  </tr> 
+
+                  <tr>
+                      <th scope="row">¿Que es el INFONAVIT?</th>
+                      <td>21/mar/2018</td>
+                      <td><span class="icono-estatus2"></span></td>
+                    <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                  </tr> 
+
+                  <tr>
+                      <th scope="row">Resuelve tu credito Infonavit</th>
+                      <td>24/feb/2018</td>
+                      <td><span class="icono-estatus"></span></td>
+                    <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                  </tr> 
+
+                  <tr>
+                      <th scope="row">Aprende a elegir la mejor ubicacion de tu casa</th>
+                      <td>14/feb/2018</td>
+                      <td><span class="icono-estatus"></span></td>
+                    <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                  </tr> 
+
+                  <tr>
+                      <th scope="row">ABC del credito hipotecario</th>
+                      <td>2/feb/2018</td>
+                      <td><span class="icono-estatus"></span></td>
+                    <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                  </tr> 
+
+                  <tr>
+                      <th scope="row">Retos para construir una casa</th>
+                      <td>6/ene/2018</td>
+                      <td><span class="icono-estatus"></span></td>
+                    <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                  </tr> 
+
+                  <tr>
+                      <th scope="row">El INFONAVIT te acompaña</th>
+                      <td>1/ene/2018</td>
+                      <td><span class="icono-estatus"></span></td>
+                    <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                  </tr> 
+            </tbody>
+          </table>
+
+        </div>
       </div>
     </div>
+
+
   </div>
-  
 
-    </div>
+  <!-- seccion destino -->
+  <div role="tabpanel" class="tab-pane" id="destino">
+    <!-- modal -->
+    <button class="btn btn-default" data-toggle="modal" data-target="#exampleModal2">
+      <i class="fa fa-plus-circle"></i><label for="">Crear Nuevo Destino</label>
+    </button>
 
-    <!-- seccion destino -->
-    <div role="tabpanel" class="tab-pane" id="destino">
-        <!-- modal -->
-<button class="btn btn-default" data-toggle="modal" data-target="#exampleModal2">
-  <i class="fa fa-plus-circle"></i><label for="">Crear Nuevo Destino</label>
-  </button>
-  
-  <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
@@ -118,57 +189,121 @@
         </div>
       </div>
     </div>
+
+      <!-- filtro -->
+
+    <input type="search" id="buscarcurso" placeholder="Buscar destino">
+
+
+
     <!-- tabla -->
-  <div class="container ">
-    <div class="row">
-      <div class="col-8">
+    <div class="container ">
+      <div class="row">
+        <div class="col-8">
           <table class="table">
-              <thead>
-                <tr>
-                  <th scope="col">Nombre</th>
-                  <th scope="col">Fecha de creacion</th>
-                  <th scope="col">Estatus</th>
-                  <th scope="col">Handle</th>
+            <thead>
+              <tr>
+                <th scope="col">Nombre</th>
+                <th scope="col">Fecha de creacion</th>
+                <th scope="col">Estatus</th>
+                <th scope="col"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>comprar</th>
+                <td>23/may/2018</td>
+                <td><span class="icono-estatus"></span></td>
+                <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+              </tr>
+              <tr>
+                  <th scope="row">Construir</th>
+                  <td>18/may/2018</td>
+                  <td><span class="icono-estatus"></span></td>
+                <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
                 </tr>
-              </thead>
-              <tbody>
                 <tr>
-                  <th scope="row">1</th>
-                  <td>Mark</td>
-                  <td>Otto</td>
-                  <td>@mdo</td>
-                </tr>
-                <!-- <tr>
-                  <th scope="row">2</th>
-                  <td>Jacob</td>
-                  <td>Thornton</td>
-                  <td>@fat</td>
-                </tr>
+                  <th scope="row">Ampliar o Remodelar</th>
+                  <td>30/abr/2018</td>
+                  <td><span class="icono-estatus2"></span></td>
+                <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                </tr> 
+
                 <tr>
-                  <th scope="row">3</th>
-                  <td>Larry</td>
-                  <td>the Bird</td>
-                  <td>@twitter</td>
-                </tr> -->
-              </tbody>
-            </table>
-  
+                    <th scope="row">Pagar hipoteca</th>
+                    <td>15/abr/2018</td>
+                    <td><span class="icono-estatus"></span></td>
+                  <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                  </tr> 
+
+                  <tr>
+                      <th scope="row">Cofinavit</th>
+                      <td>28/mar/2018</td>
+                      <td><span class="icono-estatus"></span></td>
+                    <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                  </tr> 
+
+                  <tr>
+                      <th scope="row">Credito INFONAVIT</th>
+                      <td>21/mar/2018</td>
+                      <td><span class="icono-estatus2"></span></td>
+                    <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                  </tr> 
+
+                  <tr>
+                      <th scope="row">Ingresos adicionales</th>
+                      <td>24/feb/2018</td>
+                      <td><span class="icono-estatus"></span></td>
+                    <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                  </tr> 
+
+                  <tr>
+                      <th scope="row">Amortizacion</th>
+                      <td>14/feb/2018</td>
+                      <td><span class="icono-estatus"></span></td>
+                    <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                  </tr> 
+
+                  <tr>
+                      <th scope="row">Sociedad conyugal</th>
+                      <td>2/feb/2018</td>
+                      <td><span class="icono-estatus"></span></td>
+                    <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                  </tr> 
+
+                  <tr>
+                      <th scope="row">Remodelar</th>
+                      <td>6/ene/2018</td>
+                      <td><span class="icono-estatus"></span></td>
+                    <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                  </tr> 
+
+                  <tr>
+                      <th scope="row">Introduccion</th>
+                      <td>1/ene/2018</td>
+                      <td><span class="icono-estatus"></span></td>
+                    <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                  </tr> 
+            </tbody>
+          </table>
+
+        </div>
       </div>
     </div>
+
+
   </div>
-  
-
-    </div>
 
 
-    <!-- seccion ubicacion -->
-    <div role="tabpanel" class="tab-pane" id="ubicacion">
-        <!-- modal -->
-<button class="btn btn-default" data-toggle="modal" data-target="#exampleModal3">
-  <i class="fa fa-plus-circle"></i><label for="">Crear Nuevo ubicacion</label>
-  </button>
-  
-  <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <!-- seccion ubicacion -->
+  <div role="tabpanel" class="tab-pane" id="ubicacion">
+    <!-- modal -->
+    <button class="btn btn-default" data-toggle="modal" data-target="#exampleModal3">
+      <i class="fa fa-plus-circle"></i><label for="">Crear Nuevo ubicacion</label>
+    </button>
+
+    <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
@@ -187,56 +322,118 @@
         </div>
       </div>
     </div>
+
+    <!-- filtro -->
+
+    <input type="search" id="buscarcurso" placeholder="Buscar ubicacion">
+
     <!-- tabla -->
-  <div class="container ">
-    <div class="row">
-      <div class="col-8">
+    <div class="container ">
+      <div class="row">
+        <div class="col-8">
           <table class="table">
-              <thead>
-                <tr>
-                  <th scope="col">Nombre</th>
-                  <th scope="col">Fecha de creacion</th>
-                  <th scope="col">Estatus</th>
-                  <th scope="col">Handle</th>
+            <thead>
+              <tr>
+                <th scope="col">Nombre</th>
+                <th scope="col">Fecha de creacion</th>
+                <th scope="col">Estatus</th>
+                <th scope="col"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>Usos/Destinos</th>
+                <td>23/may/2018</td>
+                <td><span class="icono-estatus"></span></td>
+                <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+              </tr>
+              <tr>
+                  <th scope="row">Individual/Conyugal</th>
+                  <td>18/may/2018</td>
+                  <td><span class="icono-estatus"></span></td>
+                <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
                 </tr>
-              </thead>
-              <tbody>
                 <tr>
-                  <th scope="row">1</th>
-                  <td>Mark</td>
-                  <td>Otto</td>
-                  <td>@mdo</td>
-                </tr>
-                <!-- <tr>
-                  <th scope="row">2</th>
-                  <td>Jacob</td>
-                  <td>Thornton</td>
-                  <td>@fat</td>
-                </tr>
+                  <th scope="row">Autorizacion historial crediticio</th>
+                  <td>30/abr/2018</td>
+                  <td><span class="icono-estatus2"></span></td>
+                <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                </tr> 
+
                 <tr>
-                  <th scope="row">3</th>
-                  <td>Larry</td>
-                  <td>the Bird</td>
-                  <td>@twitter</td>
-                </tr> -->
-              </tbody>
-            </table>
-  
+                    <th scope="row">Formato historial crediticio</th>
+                    <td>15/abr/2018</td>
+                    <td><span class="icono-estatus"></span></td>
+                  <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                  </tr> 
+
+                  <tr>
+                      <th scope="row">Creditos disponibles para ti</th>
+                      <td>28/mar/2018</td>
+                      <td><span class="icono-estatus"></span></td>
+                    <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                  </tr> 
+
+                  <tr>
+                      <th scope="row">¿Ya elegiste vivienda?</th>
+                      <td>21/mar/2018</td>
+                      <td><span class="icono-estatus2"></span></td>
+                    <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                  </tr> 
+
+                  <tr>
+                      <th scope="row">Conoce los requisitos</th>
+                      <td>24/feb/2018</td>
+                      <td><span class="icono-estatus"></span></td>
+                    <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                  </tr> 
+
+                  <tr>
+                      <th scope="row">Estado civil</th>
+                      <td>14/feb/2018</td>
+                      <td><span class="icono-estatus"></span></td>
+                    <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                  </tr> 
+
+                  <tr>
+                      <th scope="row">Terreno a nombre de...</th>
+                      <td>2/feb/2018</td>
+                      <td><span class="icono-estatus"></span></td>
+                    <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                  </tr> 
+
+                  <tr>
+                      <th scope="row">Conoce los requisitos</th>
+                      <td>6/ene/2018</td>
+                      <td><span class="icono-estatus"></span></td>
+                    <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                  </tr> 
+
+                  <tr>
+                      <th scope="row">¿Que tipo de remodelacion quieres hacer?</th>
+                      <td>1/ene/2018</td>
+                      <td><span class="icono-estatus"></span></td>
+                    <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                  </tr> 
+            </tbody>
+          </table>
+
+        </div>
       </div>
     </div>
+
+
   </div>
-  
 
-    </div>
+  <!-- seccion tipo de elemento -->
+  <div role="tabpanel" class="tab-pane" id="telemento">
+    <!-- modal -->
+    <button class="btn btn-default" data-toggle="modal" data-target="#exampleModal4">
+      <i class="fa fa-plus-circle"></i><label for="">Crear Nuevo Tipo de Elemento</label>
+    </button>
 
-    <!-- seccion tipo de elemento -->
-    <div role="tabpanel" class="tab-pane" id="telemento">
-        <!-- modal -->
-<button class="btn btn-default" data-toggle="modal" data-target="#exampleModal4">
-  <i class="fa fa-plus-circle"></i><label for="">Crear Nuevo Tipo de Elemento</label>
-  </button>
-  
-  <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
@@ -255,56 +452,118 @@
         </div>
       </div>
     </div>
+
+      <!-- filtro -->
+
+    <input type="search" id="buscarcurso" placeholder="Buscar tipo de elemento">
+
     <!-- tabla -->
-  <div class="container ">
-    <div class="row">
-      <div class="col-8">
+    <div class="container ">
+      <div class="row">
+        <div class="col-8">
           <table class="table">
-              <thead>
-                <tr>
-                  <th scope="col">Nombre</th>
-                  <th scope="col">Fecha de creacion</th>
-                  <th scope="col">Estatus</th>
-                  <th scope="col">Handle</th>
+            <thead>
+              <tr>
+                <th scope="col">Nombre</th>
+                <th scope="col">Fecha de creacion</th>
+                <th scope="col">Estatus</th>
+                <th scope="col"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>video</th>
+                <td>23/may/2018</td>
+                <td><span class="icono-estatus"></span></td>
+                <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+              </tr>
+              <tr>
+                  <th scope="row">Simulador</th>
+                  <td>18/may/2018</td>
+                  <td><span class="icono-estatus"></span></td>
+                <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
                 </tr>
-              </thead>
-              <tbody>
                 <tr>
-                  <th scope="row">1</th>
-                  <td>Mark</td>
-                  <td>Otto</td>
-                  <td>@mdo</td>
-                </tr>
-                <!-- <tr>
-                  <th scope="row">2</th>
-                  <td>Jacob</td>
-                  <td>Thornton</td>
-                  <td>@fat</td>
-                </tr>
+                  <th scope="row">Cápsula interactiva</th>
+                  <td>30/abr/2018</td>
+                  <td><span class="icono-estatus2"></span></td>
+                <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                </tr> 
+
                 <tr>
-                  <th scope="row">3</th>
-                  <td>Larry</td>
-                  <td>the Bird</td>
-                  <td>@twitter</td>
-                </tr> -->
-              </tbody>
-            </table>
-  
+                    <th scope="row">Documento PDF</th>
+                    <td>15/abr/2018</td>
+                    <td><span class="icono-estatus"></span></td>
+                  <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                  </tr> 
+
+                  <tr>
+                      <th scope="row">Infografia</th>
+                      <td>28/mar/2018</td>
+                      <td><span class="icono-estatus"></span></td>
+                    <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                  </tr> 
+
+                  <tr>
+                      <th scope="row">Videojuego</th>
+                      <td>21/mar/2018</td>
+                      <td><span class="icono-estatus2"></span></td>
+                    <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                  </tr> 
+
+                  <tr>
+                      <th scope="row">Tutorial</th>
+                      <td>24/feb/2018</td>
+                      <td><span class="icono-estatus"></span></td>
+                    <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                  </tr> 
+
+                  <tr>
+                      <th scope="row">Vista 360</th>
+                      <td>14/feb/2018</td>
+                      <td><span class="icono-estatus"></span></td>
+                    <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                  </tr> 
+
+                  <tr>
+                      <th scope="row">Tour virtual</th>
+                      <td>2/feb/2018</td>
+                      <td><span class="icono-estatus"></span></td>
+                    <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                  </tr> 
+
+                  <tr>
+                      <th scope="row">Realidad aumentada</th>
+                      <td>6/ene/2018</td>
+                      <td><span class="icono-estatus"></span></td>
+                    <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                  </tr> 
+
+                  <tr>
+                      <th scope="row">Video interactivo</th>
+                      <td>1/ene/2018</td>
+                      <td><span class="icono-estatus"></span></td>
+                    <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                  </tr> 
+            </tbody>
+          </table>
+
+        </div>
       </div>
     </div>
+
+
   </div>
-  
 
-    </div>
+  <!-- seccion elemento aprendizaje -->
+  <div role="tabpanel" class="tab-pane" id="eaprendizaje">
+    <!-- modal -->
+    <button class="btn btn-default" data-toggle="modal" data-target="#exampleModal5">
+      <i class="fa fa-plus-circle"></i><label for="">Crear Nuevo Elemento de Aprendizaje</label>
+    </button>
 
-    <!-- seccion elemento aprendizaje -->
-    <div role="tabpanel" class="tab-pane" id="eaprendizaje">
-        <!-- modal -->
-<button class="btn btn-default" data-toggle="modal" data-target="#exampleModal5">
-  <i class="fa fa-plus-circle"></i><label for="">Crear Nuevo Elemento de Aprendizaje</label>
-  </button>
-  
-  <div class="modal fade" id="exampleModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="exampleModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
@@ -323,56 +582,130 @@
         </div>
       </div>
     </div>
+
+    <!-- filtro -->
+
+    <input type="search" id="buscarcurso" placeholder="Buscar elemento de aprendizaje">
+
     <!-- tabla -->
-  <div class="container ">
-    <div class="row">
-      <div class="col-8">
+    <div class="container ">
+      <div class="row">
+        <div class="col-8">
           <table class="table">
-              <thead>
-                <tr>
-                  <th scope="col">Nombre</th>
-                  <th scope="col">Fecha de creacion</th>
-                  <th scope="col">Estatus</th>
-                  <th scope="col">Handle</th>
+            <thead>
+              <tr>
+                <th scope="col">Nombre</th>
+                <th scope="col">Tipo de Elemento</th>
+                <th scope="col">Fecha de creacion</th>
+                <th scope="col">Estatus</th>
+                <th scope="col"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>Mi ahorro</th>
+                <td>video</td>
+                <td>23/may/2018</td>
+                <td><span class="icono-estatus"></span></td>
+                <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+              </tr>
+              <tr>
+                  <th scope="row">Usa tu crédito</th>
+                  <td>video</td>
+                  <td>18/may/2018</td>
+                  <td><span class="icono-estatus"></span></td>
+                <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
                 </tr>
-              </thead>
-              <tbody>
                 <tr>
-                  <th scope="row">1</th>
-                  <td>Mark</td>
-                  <td>Otto</td>
-                  <td>@mdo</td>
-                </tr>
-                <!-- <tr>
-                  <th scope="row">2</th>
-                  <td>Jacob</td>
-                  <td>Thornton</td>
-                  <td>@fat</td>
-                </tr>
+                  <th scope="row">Como hacer un presupuesto</th>
+                  <td>Cápsula interactiva</td>
+                  <td>30/abr/2018</td>
+                  <td><span class="icono-estatus2"></span></td>
+                <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                </tr> 
+
                 <tr>
-                  <th scope="row">3</th>
-                  <td>Larry</td>
-                  <td>the Bird</td>
-                  <td>@twitter</td>
-                </tr> -->
-              </tbody>
-            </table>
-  
+                    <th scope="row">Conoce más mis productos</th>
+                    <td>Tutorial</td>
+                    <td>15/abr/2018</td>
+                    <td><span class="icono-estatus"></span></td>
+                  <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                  </tr> 
+
+                  <tr>
+                      <th scope="row">Conoce la tabla de amortización</th>
+                      <td>Tutorial</td>
+                      <td>28/mar/2018</td>
+                      <td><span class="icono-estatus"></span></td>
+                    <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                  </tr> 
+
+                  <tr>
+                      <th scope="row">Seleción de vivienda</th>
+                      <td>Videojuego</td>
+                      <td>21/mar/2018</td>
+                      <td><span class="icono-estatus2"></span></td>
+                    <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                  </tr> 
+
+                  <tr>
+                      <th scope="row">Tips para elegir vivienda</th>
+                      <td>Video</td>
+                      <td>24/feb/2018</td>
+                      <td><span class="icono-estatus"></span></td>
+                    <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                  </tr> 
+
+                  <tr>
+                      <th scope="row">Derechos y obligaciones</th>
+                      <td>Video</td>
+                      <td>14/feb/2018</td>
+                      <td><span class="icono-estatus"></span></td>
+                    <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                  </tr> 
+
+                  <tr>
+                      <th scope="row">Pasos para el crédito</th>
+                      <td>Simulador</td>
+                      <td>2/feb/2018</td>
+                      <td><span class="icono-estatus"></span></td>
+                    <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                  </tr> 
+
+                  <tr>
+                      <th scope="row">Reequisitos del terreno</th>
+                      <td>Video</td>
+                      <td>6/ene/2018</td>
+                      <td><span class="icono-estatus"></span></td>
+                    <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                  </tr> 
+
+                  <tr>
+                      <th scope="row">Simulador de presupuesto</th>
+                      <td>Simulador</td>
+                      <td>1/ene/2018</td>
+                      <td><span class="icono-estatus"></span></td>
+                    <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                  </tr> 
+            </tbody>
+          </table>
+
+        </div>
       </div>
     </div>
+
+
   </div>
-  
 
-    </div>
+  <!-- seccion filtro -->
+  <div role="tabpanel" class="tab-pane" id="filtro">
+    <!-- modal -->
+    <button class="btn btn-default" data-toggle="modal" data-target="#exampleModal6">
+      <i class="fa fa-plus-circle"></i><label for="">Crear Nuevo filtro</label>
+    </button>
 
-    <!-- seccion filtro -->
-    <div role="tabpanel" class="tab-pane" id="filtro">
-        <!-- modal -->
-<button class="btn btn-default" data-toggle="modal" data-target="#exampleModal6">
-  <i class="fa fa-plus-circle"></i><label for="">Crear Nuevo filtro</label>
-  </button>
-  
-  <div class="modal fade" id="exampleModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="exampleModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
@@ -391,49 +724,109 @@
         </div>
       </div>
     </div>
+
+    <!-- filtro -->
+
+    <input type="search" id="buscarcurso" placeholder="Buscar filtro">
+
     <!-- tabla -->
-  <div class="container ">
-    <div class="row">
-      <div class="col-8">
+    <div class="container ">
+      <div class="row">
+        <div class="col-8">
           <table class="table">
-              <thead>
-                <tr>
-                  <th scope="col">Nombre</th>
-                  <th scope="col">Fecha de creacion</th>
-                  <th scope="col">Estatus</th>
-                  <th scope="col">Handle</th>
+            <thead>
+              <tr>
+                <th scope="col">Nombre</th>
+                <th scope="col">Fecha de creacion</th>
+                <th scope="col">Estatus</th>
+                <th scope="col"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>Ubicacion</th>
+                <td>23/may/2018</td>
+                <td><span class="icono-estatus"></span></td>
+                <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+              </tr>
+              <tr>
+                  <th scope="row">NSS</th>
+                  <td>18/may/2018</td>
+                  <td><span class="icono-estatus"></span></td>
+                <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
                 </tr>
-              </thead>
-              <tbody>
                 <tr>
-                  <th scope="row">1</th>
-                  <td>Mark</td>
-                  <td>Otto</td>
-                  <td>@mdo</td>
-                </tr>
-                <!-- <tr>
-                  <th scope="row">2</th>
-                  <td>Jacob</td>
-                  <td>Thornton</td>
-                  <td>@fat</td>
-                </tr>
+                  <th scope="row">Sueldo</th>
+                  <td>30/abr/2018</td>
+                  <td><span class="icono-estatus2"></span></td>
+                <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                </tr> 
+
                 <tr>
-                  <th scope="row">3</th>
-                  <td>Larry</td>
-                  <td>the Bird</td>
-                  <td>@twitter</td>
-                </tr> -->
-              </tbody>
-            </table>
-  
+                    <th scope="row">Tipo de crédito</th>
+                    <td>15/abr/2018</td>
+                    <td><span class="icono-estatus"></span></td>
+                  <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                  </tr> 
+
+                  <tr>
+                      <th scope="row">Destino</th>
+                      <td>28/mar/2018</td>
+                      <td><span class="icono-estatus"></span></td>
+                    <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                  </tr> 
+
+                  <tr>
+                      <th scope="row">Buró de crédito</th>
+                      <td>21/mar/2018</td>
+                      <td><span class="icono-estatus2"></span></td>
+                    <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                  </tr> 
+
+                  <tr>
+                      <th scope="row">Combinaciones</th>
+                      <td>24/feb/2018</td>
+                      <td><span class="icono-estatus"></span></td>
+                    <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                  </tr> 
+
+                  <tr>
+                      <th scope="row">Tabla de amortización</th>
+                      <td>14/feb/2018</td>
+                      <td><span class="icono-estatus"></span></td>
+                    <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                  </tr> 
+
+                  <tr>
+                      <th scope="row">Edad</th>
+                      <td>2/feb/2018</td>
+                      <td><span class="icono-estatus"></span></td>
+                    <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                  </tr> 
+
+                  <tr>
+                      <th scope="row">Sexo</th>
+                      <td>6/ene/2018</td>
+                      <td><span class="icono-estatus"></span></td>
+                    <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                  </tr> 
+
+                  <tr>
+                      <th scope="row">Estado civil</th>
+                      <td>1/ene/2018</td>
+                      <td><span class="icono-estatus"></span></td>
+                    <td><span class="icono-edit"></span><span class="icono-exit"></span></td>
+                  </tr> 
+            </tbody>
+          </table>
+
+        </div>
       </div>
     </div>
+
+
   </div>
-  
 
-    </div>
 
-    
 
 </div>
-

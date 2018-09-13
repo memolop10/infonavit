@@ -74,3 +74,66 @@ table.table {
     ul.nav.nav-tabs {
         width: 95%;
     }
+
+
+    span.icono-estatus {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        background: url('/assets/estatusok.PNG');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+    }
+
+    span.icono-estatus2 {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        background: url('/assets/estatusno.PNG');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+    }
+
+    span.icono-edit {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        background: url('/assets/edit.PNG');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+
+    span.icono-exit {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        background: url('/assets/iconoexit.PNG');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    th {
+        font-weight: 400;
+    }
+
+    #buscarcurso {
+        position: absolute;
+        background: url('/assets/lupa.PNG');
+        background-repeat: no-repeat;
+        background-position: right;
+        width: 290px;
+        right: 15px;
+        margin-top: 9px;
+        background-color: rgba(235, 235, 235, 0.993)
+    }
+    
+    .tab-pane {
+        position: relative;
+    }
