@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-// import * as $ from 'jquery';
+import * as $ from 'jquery';
 
 @Component({
   selector: 'app-sidebar',
@@ -14,11 +14,11 @@ export class SidebarComponent implements OnInit {
  
   ngOnInit() {
 
-  //   $("li").click(function(event){
-  //       alert('hola');
-  //      $(this).addclass("fred-li");
-
-  //   });
+    function setActive(element){
+      console.log(element)
+      $(".fred-buttons").removeClass("active")
+      $(element).addClass("active")
+  }
    }
 
 
