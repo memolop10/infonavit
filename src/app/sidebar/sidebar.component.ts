@@ -7,12 +7,19 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./sidebar.component.css']
 })
 export class SidebarComponent implements OnInit {
-  // title = 'Look jQuery Animation working in action!';
+  title = 'Look jQuery Animation working in action!';
 
   constructor() { }
 
  
   ngOnInit() {
-  }
 
-}
+  //   $("li").click(function(event){
+  //       alert('hola');
+  //      $(this).addclass("fred-li");
+
+  //   });
+   }
+
+
+  }

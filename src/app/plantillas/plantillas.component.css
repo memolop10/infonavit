@@ -128,10 +128,13 @@ table.table {
         background: url('/assets/lupa.PNG');
         background-repeat: no-repeat;
         background-position: right;
-        width: 290px;
         right: 15px;
         margin-top: 9px;
-        background-color: rgba(235, 235, 235, 0.993)
+        background-color: rgba(235, 235, 235, 0.993);
+        height: 30px;
+        line-height: 30px;
+        font-size: 12px;
+        width: 330px
     }
     
     .tab-pane {
@@ -146,21 +149,95 @@ table.table {
         margin-left: 10px;
     }
 
-    span{
+    /* span{
         margin-left: 40px;
-    }
+    } */
 
     .nplantilla {
         margin-left: 34px;
         margin-top: 33px;
-        width: 65%;
+        width: 96.5%;
     }
 
     input{
-        margin-left: 40px;
-        width: 555px;
-        display: block;
+        /* margin-left: 40px; */
+        width: 97%;
+        /* display: block; */
+        height: 35px;
+        line-height: 35px;
     }
 
 
-  
+    .dropdown button, .btn-group button {
+        height: 35px;
+        width: 100px;
+        background-color:  #fff;
+        color: #000;
+        font-size:  15px;
+        margin: 0 10px !important;
+        margin-left:  10px;
+        border-radius: 0;
+      }
+
+      button.btn.btn-secondary.btn-lg.dropdown-toggle {
+        padding: 0;
+    }
+
+   
+
+
+    div#formato[_ngcontent-c2] {
+        margin: 0 auto;
+        width: 85%;
+    }
+
+    .dropdown-toggle::after {
+        margin-top: 8px;
+        float: right;
+    }
+
+    div#estatus {
+        width: 20%;
+        display: inline-block;
+    }
+
+    div#estatus button {
+        background-color: #359907;
+        color: #fff;
+        width: 160px;
+        margin-left: 0 !important;
+        text-align: left;
+    }
+
+    div#name {
+        display: inline-block;
+        width: 77%;
+    }
+
+    div#add-curso span {width:  100%;}
+
+#add-curso .btn-group {width:  100%;}
+
+#add-curso button {
+    width:  100%;
+    text-align:  left;
+    margin-left:  0 !important;
+    color:  #aaa;
+    border: 1px solid #aaa;
+}
+
+#add-destino .btn-group {
+    width:  100%;
+}
+
+#add-destino button {
+    width:  100%;
+    text-align: left;
+    margin-left:  0 !important;
+    color:  #aaa;
+    border: 1px solid #aaa;
+}
+
+#name, #estatus, #add-curso, #add-destino {
+    margin-bottom:  15px;
+}
