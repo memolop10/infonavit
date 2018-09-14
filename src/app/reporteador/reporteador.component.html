@@ -19,10 +19,10 @@
   <div role="tabpanel" class="tab-pane active" id="dhabientes">
     <form>
       <div id="nss">
-      <span>Buscar por Numero de Seguro Social:</span>  
+        <span>Buscar por Numero de Seguro Social:</span>
         <!-- filtro -->
 
-     <input type="search" id="buscardhabientes" placeholder="Ingresa el Numero de Seguro Social (NSS)">
+        <input type="search" id="buscardhabientes" placeholder="Ingresa el Numero de Seguro Social (NSS)">
 
       </div>
     </form>
@@ -34,57 +34,68 @@
   <!-- Destinos -->
   <div role="tabpanel" class="tab-pane" id="destinos">
     <form>
-    <div id="periodo">
-      <span>Selecciona el periodo que deseas consultar:</span> 
-      <input type="datetime" id="buscarde" placeholder="De:">
-      <input type="datetime" id="buscarhasta" placeholder="Hasta:">
-    </div>
+      <div id="periodo">
+        <span>Selecciona el periodo que deseas consultar:</span>
+        <input type="datetime" class="buscarde" placeholder="De:">
+        <input type="datetime" class="buscarhasta" placeholder="Hasta:">
+      </div>
 
 
 
-    <div id="sdestino">
-        
+      <div id="sdestino">
 
-      <!-- dropdown -->
-      <div class="btn-group">
+
+        <!-- dropdown -->
+        <div class="btn-group">
           <span>Selecciona el Destino</span>
-        <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Ver todos
-        </button>
-        <div class="dropdown-menu">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Separated link</a>
+          <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span>Ver todos</span>
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Separated link</a>
+          </div>
         </div>
-      </div>
-    
-      <!-- dropdown -->
+
+        <!-- dropdown -->
 
 
-      
 
-      
-      <!-- segundo dropdown -->
-      <div class="btn-group">
-          <span>Selecciona el Curso</span> 
-        <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Ver todos
-        </button>
-        <div class="dropdown-menu">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Separated link</a>
+
+
+        <!-- segundo dropdown -->
+        <div class="btn-group">
+          <span>Selecciona el Curso</span>
+          <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span>Ver todos</span>
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Separated link</a>
+          </div>
+          
+          
+
         </div>
-      </div>
-      <!-- segundo dropdown -->
-      
-    </div>
+        <!-- segundo dropdown -->
 
-    <input type="submit">
+
+        <div class="botton" type="button">
+            <span>consultar</span>
+          </div>
+
+
+      </div>
+
+
+
+
 
     </form>
 
@@ -97,18 +108,22 @@
 
 
     <form>
-      <div id="periodo-elementos">
-        <span>Selecciona el periodo que deseas consultar:</span> 
-        <input type="text" name="de">
-        <input type="text" name="hasta">
-      </div>
+      
+        <div id="periodo-elementos">
+          <span>Selecciona el periodo que deseas consultar:</span>
+          <input type="datetime" class="buscarde" placeholder="De:">
+          <input type="datetime" class="buscarhasta" placeholder="Hasta:">
+        </div>
+
+        
       <div id="elemento-a">
-        <span>Elemento de Aprendizaje</span> 
+        
 
         <!-- dropdown -->
         <div class="btn-group">
+            <span>Elemento de Aprendizaje</span>
           <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Ver todos
+            <span>Ver todos</span> 
           </button>
           <div class="dropdown-menu">
             <a class="dropdown-item" href="#">Action</a>
@@ -120,11 +135,12 @@
         </div>
         <!-- dropdown -->
 
-        <span>Selecciona el Curso </span> 
+        
         <!-- segundo dropdown -->
         <div class="btn-group">
+            <span>Selecciona el Curso </span>
           <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Ver todos
+           <span>Ver todos</span>
           </button>
           <div class="dropdown-menu">
             <a class="dropdown-item" href="#">Action</a>
@@ -136,13 +152,12 @@
         </div>
         <!-- segundo dropdown -->
 
+        <div class="botton" type="button">
+          <span>consultar</span>
+        </div>
 
-
-        <input type="submit">
-      </div>
-
+      </div> 
     </form>
-
     <!-- Elementos -->
 
   </div>

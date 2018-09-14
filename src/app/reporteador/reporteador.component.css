@@ -110,20 +110,20 @@ body:after {
     }
 
 
-    #buscarde {
+    .buscarde {
         position: absolute;
     
         background: url('/assets/calendario.PNG');
         background-repeat: no-repeat;
         width: 48%;
         background-position: right;
-        margin-top: 9px;
+        margin-top: 14px;
         top: 20px;
         background-color: #ffff;
         left: 0;
     }
 
-    #buscarhasta {
+    .buscarhasta {
         position: absolute;
         display: block;
         background: url('/assets/calendario.PNG');
@@ -150,6 +150,7 @@ body:after {
     .btn-group{
         display: inline-block;
         /* position: absolute; */
+        margin-top: 7px;
     }
 
     #sdestino{
@@ -161,5 +162,42 @@ body:after {
     .btn-group[_ngcontent-c2] {
         display: inline-block;
         width: 40%;
+
+        margin-left: 42px;
+        margin-top: 38px;
         
+    }
+
+    .btn{
+        background-color: #ffff;
+        border-radius: none;
+        border: rgb(160, 160, 160) 1px solid;
+        width: 173px;
+        height: 30px;
+        margin-top: 3px;
+    }
+
+    .botton{
+        position: absolute;
+        text-align: center;
+        margin-top: 10px;
+        right: 0;
+        width: 172px;
+        margin-right: 20px;
+        background: #aa1119;
+        color: #ffff
+    }
+
+
+    #periodo-elementos{
+        display: inline-block;
+        width: 48%;
+        position: relative;
+        margin-left: 25px;
+        margin-top: 25px;
+    }
+
+    #elemento-a{
+        display: inline-block;
+        width: 48%;
     }
