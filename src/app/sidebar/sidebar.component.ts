@@ -14,12 +14,24 @@ export class SidebarComponent implements OnInit {
  
   ngOnInit() {
 
-    function setActive(element){
-      console.log(element)
-      $(".fred-buttons").removeClass("active")
-      $(element).addClass("active")
+  $(document).ready(function(){
+
+    console.log('Hola')
+
+    $('.fred-li').click(function(){
+
+      if($(this).hasClass('active')){
+
+      }else{
+        $('.fred-li').removeClass('active')
+        $(this).addClass('active')
+        
+      }
+    })
+
+  })
+
   }
-   }
 
 
   }

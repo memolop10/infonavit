@@ -78,7 +78,7 @@ ul.listaInfonavit {
   color: rgb(0, 0, 0);
   padding: 10px 0;
 }
-.sidebar-nav[_ngcontent-c1] li[_ngcontent-c1]:hover{
+.sidebar-nav[_ngcontent-c1] li[_ngcontent-c1]:hover, .fred-li.active{
   background: #aa1119;
 }
 
@@ -106,7 +106,7 @@ li{
   text-decoration: none;
 }
 
-.sidebar-nav[_ngcontent-c1] li[_ngcontent-c1]:hover img {
+.sidebar-nav[_ngcontent-c1] li[_ngcontent-c1]:hover img, .fred-li.active img {
   filter: brightness(100);
 }
 
@@ -116,7 +116,7 @@ ul.listaInfonavit li:first-child {
   margin: 10px 0 0;
 }
 
-.sidebar-nav a:hover {
+.sidebar-nav a:hover, .fred-li.active a{
   color: #fff;
   background: none;
 }
@@ -136,7 +136,7 @@ h3[_ngcontent-c1] {
   margin: auto;
 }
 
-.sidebar-nav[_ngcontent-c1] li[_ngcontent-c1]:hover img {
+.sidebar-nav[_ngcontent-c1] li[_ngcontent-c1]:hover img , .fred-li.active img{
   transform: scale(1.2);
 }
 
@@ -160,7 +160,7 @@ visibility: hidden;
 margin-left: -250px;
 }  */
 
-.sidebar-nav[_ngcontent-c1][_ngcontent-c1] li[_ngcontent-c1][_ngcontent-c1]:hover a {
+.sidebar-nav[_ngcontent-c1][_ngcontent-c1] li[_ngcontent-c1][_ngcontent-c1]:hover a, .fred-li.active a {
   color: white;
   font-size: 17px !important;
 }
@@ -180,3 +180,6 @@ span.usuario{
   bottom: 12px;
 }
 
+.fred-li.active span{
+  color: #fff;
+}

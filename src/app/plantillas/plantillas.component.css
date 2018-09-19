@@ -134,7 +134,8 @@ table.table {
         height: 30px;
         line-height: 30px;
         font-size: 12px;
-        width: 330px
+        width: 330px;
+        z-index: 10;
     }
     
     .tab-pane {
@@ -240,4 +241,35 @@ table.table {
 
 #name, #estatus, #add-curso, #add-destino {
     margin-bottom:  15px;
+}
+
+div#pantallas {
+    position: relative;
+}
+
+button.btn.btn-default {
+    position: absolute;
+    display: block;
+}
+
+
+div#bottons {
+    display: block;
+    position: absolute;
+    width: 87%;
+    bottom: -150px;
+}
+
+button#crearp {
+    float: right;
+    font-size: 11px;
+    background-color: #e5312e;
+    color: #fff;
+}
+
+button#cancel {
+    float: left;
+    font-size: 12px;
+    background-color: #aaa;
+    color:#fff;
 }
