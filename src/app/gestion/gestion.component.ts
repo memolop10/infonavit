@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as $ from 'jquery';
 
 @Component({
   selector: 'app-gestion',
@@ -10,6 +11,10 @@ export class GestionComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
+    $('icono-edit catalogogusuarios').click(function (){
+        $('#mymodalgusuarios').modal('show');
+       });
   }
 
 }

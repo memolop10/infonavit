@@ -79,25 +79,117 @@
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">Separated link</a>
           </div>
-          
-          
+
+
 
         </div>
         <!-- segundo dropdown -->
 
 
         <div class="botton" type="button">
-            <span>consultar</span>
-          </div>
+          <span>consultar</span>
+        </div>
 
 
       </div>
-
-
-
-
-
     </form>
+
+
+
+    <!-- tabla de consulta -->
+    <div id="tablap">
+      <div id="datosc">
+        <div><span>DESTINO:</span><br> <span>Comprar</span></div>
+        <div> <span>CURSO:</span><br> <span>Saber mas para decidir mejor</span></div>
+        <div> <span>PERIODO:</span><br> <span>27-may-2018 al 30-jun-2018</span></div>
+        <div><span>DH QUE INICIARON:</span> <br> <span>300,000</span></div>
+        <div><span>DH QUE TERMINARON:</span> <br> <span>100,000</span></div>
+        <div>
+          <button> <span>Descargar Reporte</span></button>
+
+        </div>
+
+      </div>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">NSS#</th>
+            <th scope="col">ELEMENTO</th>
+            <th scope="col">TIPO</th>
+            <th scope="col">VISUALIZACION</th>
+            <th scope="col">VIGENCIA</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td scope="row">12345678901</td>
+            <td>Como hacer mi presupuesto</td>
+            <td>Cápsula interactiva</td>
+            <td>23/may/2018</td>
+            <td>Si</td>
+          </tr>
+          <tr>
+            <td scope="row">09876543210</td>
+            <td>Mi ahorro v1</td>
+            <td>Video</td>
+            <td>18/mayo/2018</td>
+            <td>Si</td>
+          </tr>
+          <tr>
+            <td scope="row">23456789012</td>
+            <td>Mi ahorro v2</td>
+            <td>Video</td>
+            <td>30/abr/2018</td>
+            <td>Si</td>
+          </tr>
+
+          <tr>
+            <td scope="row">987654321012</td>
+            <td>Productos</td>
+            <td>Cápsula interactiva</td>
+            <td>15/abr/2018</td>
+            <td>No</td>
+          </tr>
+
+          <tr>
+            <td scope="row">45678901234</td>
+            <td>Tabla de Amotazion</td>
+            <td>Infografia</td>
+            <td>28/mar/2018</td>
+            <td>No</td>
+          </tr>
+
+          <tr>
+            <td scope="row">67890123455</td>
+            <td>Derechos y Obligaciones</td>
+            <td>Video</td>
+            <td>21/mar/2018</td>
+            <td>Si</td>
+          </tr>
+
+          <tr>
+            <td scope="row">45678901233</td>
+            <td>Mi credito</td>
+            <td>Video</td>
+            <td>24/feb/2018</td>
+            <td>Si</td>
+          </tr>
+
+          <tr>
+            <td scope="row">34567298389</td>
+            <td>Cómo elegir una vivienda</td>
+            <td>Videojuego</td>
+            <td>14/feb/2018</td>
+            <td>Si</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- tabla de consultas -->
+
+
+
+
 
 
   </div>
@@ -108,22 +200,22 @@
 
 
     <form>
-      
-        <div id="periodo-elementos">
-          <span>Selecciona el periodo que deseas consultar:</span>
-          <input type="datetime" class="buscarde" placeholder="De:">
-          <input type="datetime" class="buscarhasta" placeholder="Hasta:">
-        </div>
 
-        
+      <div id="periodo-elementos">
+        <span>Selecciona el periodo que deseas consultar:</span>
+        <input type="datetime" class="buscarde" placeholder="De:">
+        <input type="datetime" class="buscarhasta" placeholder="Hasta:">
+      </div>
+
+
       <div id="elemento-a">
-        
+
 
         <!-- dropdown -->
         <div class="btn-group">
-            <span>Elemento de Aprendizaje</span>
+          <span>Elemento de Aprendizaje</span>
           <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <span>Ver todos</span> 
+            <span>Ver todos</span>
           </button>
           <div class="dropdown-menu">
             <a class="dropdown-item" href="#">Action</a>
@@ -135,12 +227,12 @@
         </div>
         <!-- dropdown -->
 
-        
+
         <!-- segundo dropdown -->
         <div class="btn-group">
-            <span>Selecciona el Curso </span>
+          <span>Selecciona el Curso </span>
           <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-           <span>Ver todos</span>
+            <span>Ver todos</span>
           </button>
           <div class="dropdown-menu">
             <a class="dropdown-item" href="#">Action</a>
@@ -152,13 +244,106 @@
         </div>
         <!-- segundo dropdown -->
 
-        <div class="botton" type="button">
+        <div class="botton2" type="button">
           <span>consultar</span>
         </div>
 
-      </div> 
+      </div>
     </form>
     <!-- Elementos -->
 
+    <!-- tabla de consulta -->
+    <div id="tablaele">
+
+      <div id="especificaciones">
+        <div class="elemento"> <span>Elemento:</span>&nbsp;<span>Como hacer un presupuesto</span> </div>
+        <div class="telemento"> <span>Tipo de elemento:</span>&nbsp; <span>Cápsula interactiva</span></div>
+
+      </div>
+      <div id="datoscele">
+        <div><span>DESTINO:</span><br> <span>Comprar</span></div>
+        <div> <span>CURSO:</span><br> <span>Saber mas para decidir mejor</span></div>
+        <div> <span>PERIODO:</span><br> <span>27-may-2018 al 30-jun-2018</span></div>
+        <div><span>DH QUE INICIARON:</span> <br> <span>300,000</span></div>
+        <div><span>DH QUE TERMINARON:</span> <br> <span>100,000</span></div>
+        <div>
+          <button> <span>Descargar Reporte</span></button>
+
+        </div>
+
+      </div>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">NSS#</th>
+            <th scope="col">DESTINO</th>
+            <th scope="col">VISUALIZACION</th>
+            <th scope="col">VIGENCIA</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td scope="row">12345678901</td>
+            <td>Comprar</td>
+            <td>23/may/2018</td>
+            <td>Si</td>
+          </tr>
+          <tr>
+            <td scope="row">09876543210</td>
+            <td>Construir</td>
+            <td>18/may/2018</td>
+            <td>Si</td>
+          </tr>
+          <tr>
+            <td scope="row">23456789012</td>
+            <td>Ampliar o remodelar</td>
+            <td>30/abril/2018</td>
+            <td>Si</td>
+          </tr>
+
+          <tr>
+            <td scope="row">9876543232</td>
+            <td>Pagar hipoteca</td>
+            <td>15/abr/2018</td>
+            <td>No</td>
+          </tr>
+
+          <tr>
+            <td scope="row">45678901234</td>
+            <td>Cofinavit</td>
+            <td>28/mar/2018</td>
+            <td>No</td>
+          </tr>
+
+
+          <tr>
+            <td scope="row">67890123455</td>
+            <td>Crédito INFONAVIT</td>
+            <td>21/mar/2018</td>
+            <td>Si</td>
+          </tr>
+
+          <tr>
+            <td scope="row">45678901233</td>
+            <td>Ingresos adicionales</td>
+            <td>24/feb/2018</td>
+            <td>Si</td>
+          </tr>
+
+          <tr>
+            <td scope="row">34567298389</td>
+            <td>Amortización</td>
+            <td>14/feb/2018</td>
+            <td>Si</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- tabla de consultas -->
+
   </div>
+
+
+
+
 </div>

@@ -1,16 +1,15 @@
-
-.nav{
+.nav {
     /* margin-left: 395px; */
     padding-top: 50px
 }
 
-.nav{
+.nav {
     /* margin-left: 395px; */
     padding-top: 50px;
-    
+
 }
 
-.table{
+.table {
     margin-top: 60px;
 }
 
@@ -53,7 +52,7 @@ app-sidebar {
 
 .table thead th {
     color: red;
-    border:none
+    border: none
 }
 
 table.table {
@@ -77,127 +76,270 @@ body:after {
     top: 0;
     width: 100%;
     height: 100%;
-    z-index: -1;}
+    z-index: -1;
+}
 
-    body {
-        background: unset !important;
-    }
-    
-    ul.nav.nav-tabs {
-        width: 95%;
-    }
+body {
+    background: unset !important;
+}
 
-    #buscardhabientes {
-        position: absolute;
-        background: url('/assets/lupa.PNG');
-        background-repeat: no-repeat;
-        background-position: right;
-        width: 342px;
-        display: block;
-        margin-top: 9px;
-        margin-top: 9px;
-        
-        background-color: rgba(235, 235, 235, 0.993)
-    }
-    
-    .tab-pane {
-        position: relative;
-    }
+ul.nav.nav-tabs {
+    width: 95%;
+}
 
-    #nss{
-        margin-left: 20px;
+#buscardhabientes {
+    position: absolute;
+    background: url('/assets/lupa.PNG');
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 342px;
+    display: block;
+    margin-top: 9px;
+    margin-top: 9px;
+
+    background-color: rgba(235, 235, 235, 0.993)
+}
+
+.tab-pane {
+    position: relative;
+}
+
+#nss {
+    margin-left: 20px;
     margin-top: 22px;
-    }
+}
 
 
-    .buscarde {
-        position: absolute;
-    
-        background: url('/assets/calendario.PNG');
-        background-repeat: no-repeat;
-        width: 48%;
-        background-position: right;
-        margin-top: 14px;
-        top: 20px;
-        background-color: #ffff;
-        left: 0;
-    }
+.buscarde {
+    position: absolute;
 
-    .buscarhasta {
-        position: absolute;
-        display: block;
-        background: url('/assets/calendario.PNG');
-        background-repeat: no-repeat;
-        
-        width: 48%;
-        background-position: right;
-        margin-top: 9px;
-        background-color:#ffff;
-        right: 0;
-    }
-    
-    .tab-pane {
-        position: relative;
-    }
+    background: url('/assets/calendario.PNG');
+    background-repeat: no-repeat;
+    width: 48%;
+    background-position: right;
+    margin-top: 14px;
+    top: 20px;
+    background-color: #ffff;
+    left: 0;
+}
 
-    #periodo{
-        display: inline-block;
-        width: 48%;
-        position: relative;
-        margin-left: 25px;
-        margin-top: 25px;
-    }
-    .btn-group{
-        display: inline-block;
-        /* position: absolute; */
-        margin-top: 7px;
-    }
+.buscarhasta {
+    position: absolute;
+    display: block;
+    background: url('/assets/calendario.PNG');
+    background-repeat: no-repeat;
 
-    #sdestino{
-        
-        display: inline-block;
-        width: 48%;
-    }
+    width: 48%;
+    background-position: right;
+    margin-top: 9px;
+    background-color: #ffff;
+    right: 0;
+}
 
-    .btn-group[_ngcontent-c2] {
-        display: inline-block;
-        width: 40%;
+.tab-pane {
+    position: relative;
+}
 
-        margin-left: 42px;
-        margin-top: 38px;
-        
-    }
+#periodo {
+    display: inline-block;
+    width: 48%;
+    position: relative;
+    margin-left: 25px;
+    margin-top: 25px;
+}
 
-    .btn{
-        background-color: #ffff;
-        border-radius: none;
-        border: rgb(160, 160, 160) 1px solid;
-        width: 173px;
-        height: 30px;
-        margin-top: 3px;
-    }
+.btn-group {
+    display: inline-block;
+    /* position: absolute; */
+    margin-top: 7px;
+}
 
-    .botton{
-        position: absolute;
-        text-align: center;
-        margin-top: 10px;
-        right: 0;
-        width: 172px;
-        margin-right: 20px;
-        background: #aa1119;
-        color: #ffff
-    }
+#sdestino {
+
+    display: inline-block;
+    width: 48%;
+}
+
+.btn-group[_ngcontent-c2] {
+    display: inline-block;
+    width: 40%;
+
+    margin-left: 42px;
+    margin-top: 38px;
+
+}
+
+.btn {
+    background-color: #ffff;
+    border-radius: none;
+    border: rgb(160, 160, 160) 1px solid;
+    width: 173px;
+    height: 30px;
+    margin-top: 3px;
+}
+
+.botton {
+    position: absolute;
+    text-align: center;
+    margin-top: 10px;
+    right: 0;
+    width: 172px;
+    margin-right: 20px;
+    background: #aa1119;
+    color: #ffff
+}
+
+.botton2 {
+    position: absolute;
+    text-align: center;
+    margin-top: 10px;
+    right: 0;
+    width: 172px;
+    margin-right: 20px;
+    background: #aa1119;
+    color: #ffff
+}
 
 
-    #periodo-elementos{
-        display: inline-block;
-        width: 48%;
-        position: relative;
-        margin-left: 25px;
-        margin-top: 25px;
-    }
+#periodo-elementos {
+    display: inline-block;
+    width: 48%;
+    position: relative;
+    margin-left: 25px;
+    margin-top: 25px;
+}
 
-    #elemento-a{
-        display: inline-block;
-        width: 48%;
-    }
+#elemento-a {
+    display: inline-block;
+    width: 48%;
+}
+
+#datosc {
+    background-color: #aa1119;
+    height: 90px;
+    display: flex;
+    padding: 12px;
+
+}
+
+#datosc div:nth-of-type(1) {
+    flex-grow: 2;
+}
+
+#datosc div:nth-of-type(2) {
+    flex-grow: 3;
+}
+
+#datosc div:nth-of-type(3) {
+    flex-grow: 3;
+}
+
+#datosc div:nth-of-type(4) {
+    flex-grow: 2;
+}
+
+#datosc div:nth-of-type(5) {
+    flex-grow: 2;
+}
+
+#datosc div:nth-of-type(6) {
+    flex-grow: 2;
+}
+
+
+
+div#tablap {
+    margin-top: 15%;
+    padding: 0 3%;
+}
+
+#datosc span {
+    font-size: 11px;
+    color: #fff;
+}
+
+#datosc[_ngcontent-c2] div[_ngcontent-c2]:nth-of-type(6) {
+    text-align: center;
+    padding-top: 12px;
+}
+
+#datosc button span {
+    color: #aa1119
+}
+
+#tablap{
+    display: none;
+} 
+
+#tablaele{
+    display: none;
+} 
+
+#datoscele{
+        background-color: #aa1119;
+        height: 90px;
+        display: flex;
+        padding: 12px;
+}
+
+#especificaciones{
+    background-color: #aa1119;
+    padding: 12px;
+    height: 40px;
+    display: flex;
+}
+
+#datoscele div:nth-of-type(1) {
+    flex-grow: 2;
+}
+
+#datoscele div:nth-of-type(2) {
+    flex-grow: 3;
+}
+
+#datoscele div:nth-of-type(3) {
+    flex-grow: 3;
+}
+
+#datoscele div:nth-of-type(4) {
+    flex-grow: 2;
+}
+
+#datoscele div:nth-of-type(5) {
+    flex-grow: 2;
+}
+
+#datoscele div:nth-of-type(6) {
+    flex-grow: 2;
+}
+
+#datoscele span {
+    font-size: 11px;
+    color: #fff;
+}
+
+#datoscele[_ngcontent-c2] div[_ngcontent-c2]:nth-of-type(6) {
+    text-align: center;
+    padding-top: 12px;
+}
+
+#datoscele button span {
+    color: #aa1119
+}
+
+div#tablaele {
+    margin-top: 15%;
+    padding: 0 3%;
+}
+
+#especificaciones span{
+    color: #fff;
+    font-size: 11px;
+}
+
+.telemento{
+    right: 30%;
+    display: inline-block;
+    position: absolute;
+}
+
