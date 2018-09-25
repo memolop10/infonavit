@@ -39,21 +39,55 @@
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Crear Curso</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
           <div class="modal-body">
-            ...
+
+            <div class="namec">
+
+              <div id="add-curso">
+                <span>Agrega el nombre del Curso*</span>
+                <input class="input-curso" type="text">
+              </div>
+
+              <div class="dropdown" id="cestatus">
+
+                <span>Estatus</span>
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  Activo
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Activo</a>
+                  <a class="dropdown-item" href="#">Inactivo</a>
+
+                </div>
+              </div>
+
+              <div class="text-area">
+                <span>Agrega la descripcion del curso(máximo 250 caracteres)*</span>
+                <textarea name="descripcionc" id="desc" cols="30" rows="10">
+
+                </textarea>
+
+
+              </div>
+
+            </div>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
+            <button type="button" data-dismiss="modal" class="cancelar">Cancelar</button>
+            <button type="button" class="crear">Crear Curso</button>
           </div>
         </div>
       </div>
     </div>
+    <!-- termino del modal -->
+
+
     <!-- filtro -->
 
     <input type="search" id="buscarcurso" placeholder="Buscar curso">
@@ -197,12 +231,43 @@
             </button>
           </div>
           <div class="modal-body">
-            ...
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
-          </div>
+
+              <div class="namec">
+  
+                <div id="add-curso">
+                  <span>Agrega el nombre del Destino*</span>
+                  <input class="input-des" type="text">
+                </div>
+  
+                <div class="dropdown" id="cestatus">
+  
+                  <span>Estatus</span>
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Activo
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Activo</a>
+                    <a class="dropdown-item" href="#">Inactivo</a>
+  
+                  </div>
+                </div>
+  
+                <div class="text-area">
+                  <span>Agrega la descripcion del Destino(máximo 250 caracteres)*</span>
+                  <textarea name="descripciond" id="desd" cols="30" rows="10">
+  
+                  </textarea>
+  
+  
+                </div>
+  
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" data-dismiss="modal" class="cancelar">Cancelar</button>
+              <button type="button" class="crear">Crear Destino</button>
+            </div>
         </div>
       </div>
     </div>
@@ -353,7 +418,7 @@
   <div role="tabpanel" class="tab-pane" id="ubicacion">
     <!-- modal -->
     <button class="btn btn-default" data-toggle="modal" data-target="#exampleModal3">
-      <i class="fa fa-plus-circle"></i><label for="">Crear Nuevo ubicacion</label>
+      <i class="fa fa-plus-circle"></i><label for="">Crear Nueva Ubicacion</label>
     </button>
 
     <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
@@ -361,18 +426,49 @@
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Crear Ubicacion</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
           <div class="modal-body">
-            ...
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
-          </div>
+
+              <div class="namec">
+  
+                <div id="add-curso">
+                  <span>Agrega el nombre del Destino*</span>
+                  <input class="input-ubi" type="text">
+                </div>
+  
+                <div class="dropdown" id="cestatus">
+  
+                  <span>Estatus</span>
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Activo
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Activo</a>
+                    <a class="dropdown-item" href="#">Inactivo</a>
+  
+                  </div>
+                </div>
+  
+                <div class="text-area">
+                  <span>Agrega la descripcion de la Ubicacion(máximo 250 caracteres)*</span>
+                  <textarea name="descripcionu" id="desu" cols="30" rows="10">
+  
+                  </textarea>
+  
+  
+                </div>
+  
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" data-dismiss="modal" class="cancelar">Cancelar</button>
+              <button type="button" class="crear">Crear Ubicacion</button>
+            </div>
         </div>
       </div>
     </div>
@@ -526,18 +622,51 @@
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Crear Tipo de Elemento</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
-          <div class="modal-body">
-            ...
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
-          </div>
+
+
+         <div class="modal-body">
+
+              <div class="namec">
+  
+                <div id="add-curso">
+                  <span>Agrega el nombre del Tipo de Elemento*</span>
+                  <input class="input-elemento" type="text">
+                </div>
+  
+                <div class="dropdown" id="cestatus">
+  
+                  <span>Estatus</span>
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Activo
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Activo</a>
+                    <a class="dropdown-item" href="#">Inactivo</a>
+  
+                  </div>
+                </div>
+  
+                <div class="text-area">
+                  <span>Agrega la descripcion del Tipo de Elemento(máximo 250 caracteres)*</span>
+                  <textarea name="descripcionele" id="desele" cols="30" rows="10">
+  
+                  </textarea>
+  
+  
+                </div>
+  
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" data-dismiss="modal" class="cancelar">Cancelar</button>
+              <button type="button" class="crear">Crear Ubicacion</button>
+            </div>
         </div>
       </div>
     </div>
@@ -595,13 +724,15 @@
                 <th scope="row">Simulador</th>
                 <td>18/may/2018</td>
                 <td><span class="icono-estatus"></span></td>
-                <td><span class="icono-edit catalogotelemento" data-toggle="modal" data-target="#mymodaltelemento"></span><span class="icono-exit"></span></td>
+                <td><span class="icono-edit catalogotelemento" data-toggle="modal" data-target="#mymodaltelemento"></span><span
+                    class="icono-exit"></span></td>
               </tr>
               <tr>
                 <th scope="row">Cápsula interactiva</th>
                 <td>30/abr/2018</td>
                 <td><span class="icono-estatus2"></span></td>
-                <td><span class="icono-edit catalogotelemento" data-toggle="modal" data-target="#mymodaltelemento" data-toggle="modal" data-target="#mymodaltelemento"></span><span class="icono-exit"></span></td>
+                <td><span class="icono-edit catalogotelemento" data-toggle="modal" data-target="#mymodaltelemento"
+                    data-toggle="modal" data-target="#mymodaltelemento"></span><span class="icono-exit"></span></td>
               </tr>
 
               <tr>
@@ -729,7 +860,8 @@
                 <td>video</td>
                 <td>23/may/2018</td>
                 <td><span class="icono-estatus"></span></td>
-                <td><span class="icono-edit catalogoeaprendizaje" data-toggle="modal" data-target="#mymodaleaprendizaje"></span><span class="icono-exit"></span></td>
+                <td><span class="icono-edit catalogoeaprendizaje" data-toggle="modal" data-target="#mymodaleaprendizaje"></span><span
+                    class="icono-exit"></span></td>
               </tr>
 
               <!-- modal edit -->
@@ -759,14 +891,16 @@
                 <td>video</td>
                 <td>18/may/2018</td>
                 <td><span class="icono-estatus"></span></td>
-                <td><span class="icono-edit catalogoeaprendizaje" data-toggle="modal" data-target="#mymodaleaprendizaje"></span><span class="icono-exit"></span></td>
+                <td><span class="icono-edit catalogoeaprendizaje" data-toggle="modal" data-target="#mymodaleaprendizaje"></span><span
+                    class="icono-exit"></span></td>
               </tr>
               <tr>
                 <th scope="row">Como hacer un presupuesto</th>
                 <td>Cápsula interactiva</td>
                 <td>30/abr/2018</td>
                 <td><span class="icono-estatus2"></span></td>
-                <td><span class="icono-edit catalogoeaprendizaje" data-toggle="modal" data-target="#mymodaleaprendizaje"></span><span class="icono-exit"></span></td>
+                <td><span class="icono-edit catalogoeaprendizaje" data-toggle="modal" data-target="#mymodaleaprendizaje"></span><span
+                    class="icono-exit"></span></td>
               </tr>
 
               <tr>
@@ -774,7 +908,8 @@
                 <td>Tutorial</td>
                 <td>15/abr/2018</td>
                 <td><span class="icono-estatus"></span></td>
-                <td><span class="icono-edit catalogoeaprendizaje" data-toggle="modal" data-target="#mymodaleaprendizaje"></span><span class="icono-exit"></span></td>
+                <td><span class="icono-edit catalogoeaprendizaje" data-toggle="modal" data-target="#mymodaleaprendizaje"></span><span
+                    class="icono-exit"></span></td>
               </tr>
 
               <tr>
@@ -782,7 +917,8 @@
                 <td>Tutorial</td>
                 <td>28/mar/2018</td>
                 <td><span class="icono-estatus"></span></td>
-                <td><span class="icono-edit catalogoeaprendizaje" data-toggle="modal" data-target="#mymodaleaprendizaje"></span><span class="icono-exit"></span></td>
+                <td><span class="icono-edit catalogoeaprendizaje" data-toggle="modal" data-target="#mymodaleaprendizaje"></span><span
+                    class="icono-exit"></span></td>
               </tr>
 
               <tr>
@@ -790,7 +926,8 @@
                 <td>Videojuego</td>
                 <td>21/mar/2018</td>
                 <td><span class="icono-estatus2"></span></td>
-                <td><span class="icono-edit catalogoeaprendizaje" data-toggle="modal" data-target="#mymodaleaprendizaje"></span><span class="icono-exit"></span></td>
+                <td><span class="icono-edit catalogoeaprendizaje" data-toggle="modal" data-target="#mymodaleaprendizaje"></span><span
+                    class="icono-exit"></span></td>
               </tr>
 
               <tr>
@@ -798,7 +935,8 @@
                 <td>Video</td>
                 <td>24/feb/2018</td>
                 <td><span class="icono-estatus"></span></td>
-                <td><span class="icono-edit catalogoeaprendizaje" data-toggle="modal" data-target="#mymodaleaprendizaje"></span><span class="icono-exit"></span></td>
+                <td><span class="icono-edit catalogoeaprendizaje" data-toggle="modal" data-target="#mymodaleaprendizaje"></span><span
+                    class="icono-exit"></span></td>
               </tr>
 
               <tr>
@@ -806,7 +944,8 @@
                 <td>Video</td>
                 <td>14/feb/2018</td>
                 <td><span class="icono-estatus"></span></td>
-                <td><span class="icono-edit catalogoeaprendizaje" data-toggle="modal" data-target="#mymodaleaprendizaje"></span><span class="icono-exit"></span></td>
+                <td><span class="icono-edit catalogoeaprendizaje" data-toggle="modal" data-target="#mymodaleaprendizaje"></span><span
+                    class="icono-exit"></span></td>
               </tr>
 
               <tr>
@@ -814,7 +953,8 @@
                 <td>Simulador</td>
                 <td>2/feb/2018</td>
                 <td><span class="icono-estatus"></span></td>
-                <td><span class="icono-edit catalogoeaprendizaje" data-toggle="modal" data-target="#mymodaleaprendizaje"></span><span class="icono-exit"></span></td>
+                <td><span class="icono-edit catalogoeaprendizaje" data-toggle="modal" data-target="#mymodaleaprendizaje"></span><span
+                    class="icono-exit"></span></td>
               </tr>
 
               <tr>
@@ -822,7 +962,8 @@
                 <td>Video</td>
                 <td>6/ene/2018</td>
                 <td><span class="icono-estatus"></span></td>
-                <td><span class="icono-edit catalogoeaprendizaje" data-toggle="modal" data-target="#mymodaleaprendizaje"></span><span class="icono-exit"></span></td>
+                <td><span class="icono-edit catalogoeaprendizaje" data-toggle="modal" data-target="#mymodaleaprendizaje"></span><span
+                    class="icono-exit"></span></td>
               </tr>
 
               <tr>
@@ -830,7 +971,8 @@
                 <td>Simulador</td>
                 <td>1/ene/2018</td>
                 <td><span class="icono-estatus"></span></td>
-                <td><span class="icono-edit catalogoeaprendizaje" data-toggle="modal" data-target="#mymodaleaprendizaje"></span><span class="icono-exit"></span></td>
+                <td><span class="icono-edit catalogoeaprendizaje" data-toggle="modal" data-target="#mymodaleaprendizaje"></span><span
+                    class="icono-exit"></span></td>
               </tr>
             </tbody>
           </table>
@@ -892,7 +1034,8 @@
                 <th>Ubicacion</th>
                 <td>23/may/2018</td>
                 <td><span class="icono-estatus"></span></td>
-                <td><span class="icono-edit catalogofiltro" data-toggle="modal" data-target="#mymodalfiltro"></span><span class="icono-exit"></span></td>
+                <td><span class="icono-edit catalogofiltro" data-toggle="modal" data-target="#mymodalfiltro"></span><span
+                    class="icono-exit"></span></td>
               </tr>
 
               <!-- modal edit -->
@@ -922,69 +1065,79 @@
                 <th scope="row">NSS</th>
                 <td>18/may/2018</td>
                 <td><span class="icono-estatus"></span></td>
-                <td><span class="icono-edit catalogofiltro" data-toggle="modal" data-target="#mymodalfiltro"></span><span class="icono-exit"></span></td>
+                <td><span class="icono-edit catalogofiltro" data-toggle="modal" data-target="#mymodalfiltro"></span><span
+                    class="icono-exit"></span></td>
               </tr>
               <tr>
                 <th scope="row">Sueldo</th>
                 <td>30/abr/2018</td>
                 <td><span class="icono-estatus2"></span></td>
-                <td><span class="icono-edit catalogofiltro" data-toggle="modal" data-target="#mymodalfiltro"></span><span class="icono-exit"></span></td>
+                <td><span class="icono-edit catalogofiltro" data-toggle="modal" data-target="#mymodalfiltro"></span><span
+                    class="icono-exit"></span></td>
               </tr>
 
               <tr>
                 <th scope="row">Tipo de crédito</th>
                 <td>15/abr/2018</td>
                 <td><span class="icono-estatus"></span></td>
-                <td><span class="icono-edit catalogofiltro" data-toggle="modal" data-target="#mymodalfiltro"></span><span class="icono-exit"></span></td>
+                <td><span class="icono-edit catalogofiltro" data-toggle="modal" data-target="#mymodalfiltro"></span><span
+                    class="icono-exit"></span></td>
               </tr>
 
               <tr>
                 <th scope="row">Destino</th>
                 <td>28/mar/2018</td>
                 <td><span class="icono-estatus"></span></td>
-                <td><span class="icono-edit catalogofiltro" data-toggle="modal" data-target="#mymodalfiltro"></span><span class="icono-exit"></span></td>
+                <td><span class="icono-edit catalogofiltro" data-toggle="modal" data-target="#mymodalfiltro"></span><span
+                    class="icono-exit"></span></td>
               </tr>
 
               <tr>
                 <th scope="row">Buró de crédito</th>
                 <td>21/mar/2018</td>
                 <td><span class="icono-estatus2"></span></td>
-                <td><span class="icono-edit catalogofiltro" data-toggle="modal" data-target="#mymodalfiltro"></span><span class="icono-exit"></span></td>
+                <td><span class="icono-edit catalogofiltro" data-toggle="modal" data-target="#mymodalfiltro"></span><span
+                    class="icono-exit"></span></td>
               </tr>
 
               <tr>
                 <th scope="row">Combinaciones</th>
                 <td>24/feb/2018</td>
                 <td><span class="icono-estatus"></span></td>
-                <td><span class="icono-edit catalogofiltro" data-toggle="modal" data-target="#mymodalfiltro"></span><span class="icono-exit"></span></td>
+                <td><span class="icono-edit catalogofiltro" data-toggle="modal" data-target="#mymodalfiltro"></span><span
+                    class="icono-exit"></span></td>
               </tr>
 
               <tr>
                 <th scope="row">Tabla de amortización</th>
                 <td>14/feb/2018</td>
                 <td><span class="icono-estatus"></span></td>
-                <td><span class="icono-edit catalogofiltro" data-toggle="modal" data-target="#mymodalfiltro"></span><span class="icono-exit"></span></td>
+                <td><span class="icono-edit catalogofiltro" data-toggle="modal" data-target="#mymodalfiltro"></span><span
+                    class="icono-exit"></span></td>
               </tr>
 
               <tr>
                 <th scope="row">Edad</th>
                 <td>2/feb/2018</td>
                 <td><span class="icono-estatus"></span></td>
-                <td><span class="icono-edit catalogofiltro" data-toggle="modal" data-target="#mymodalfiltro"></span><span class="icono-exit"></span></td>
+                <td><span class="icono-edit catalogofiltro" data-toggle="modal" data-target="#mymodalfiltro"></span><span
+                    class="icono-exit"></span></td>
               </tr>
 
               <tr>
                 <th scope="row">Sexo</th>
                 <td>6/ene/2018</td>
                 <td><span class="icono-estatus"></span></td>
-                <td><span class="icono-edit catalogofiltro" data-toggle="modal" data-target="#mymodalfiltro"></span><span class="icono-exit"></span></td>
+                <td><span class="icono-edit catalogofiltro" data-toggle="modal" data-target="#mymodalfiltro"></span><span
+                    class="icono-exit"></span></td>
               </tr>
 
               <tr>
                 <th scope="row">Estado civil</th>
                 <td>1/ene/2018</td>
                 <td><span class="icono-estatus"></span></td>
-                <td><span class="icono-edit catalogofiltro" data-toggle="modal" data-target="#mymodalfiltro"></span><span class="icono-exit"></span></td>
+                <td><span class="icono-edit catalogofiltro" data-toggle="modal" data-target="#mymodalfiltro"></span><span
+                    class="icono-exit"></span></td>
               </tr>
             </tbody>
           </table>

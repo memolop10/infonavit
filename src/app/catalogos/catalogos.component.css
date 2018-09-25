@@ -141,9 +141,126 @@ th {
     width: 290px;
     right: 15px;
     margin-top: 9px;
-    background-color: rgba(235, 235, 235, 0.993)
+    background-color: rgba(235, 235, 235, 0.993);
+    z-index: 1;
+    margin-top: -30px;
 }
 
 .tab-pane {
     position: relative;
+}
+
+.modal-content {
+    width: 120%;
+    background-color: rgba(235, 235, 235, 0.993);
+    
+}
+
+#add-curso{
+    display: inline-block;
+}
+
+.input-curso{
+    width: 97%;
+    height: 35px;
+    line-height: 35px;
+}
+#cestatus{
+    display:inline-block;
+    margin-left: 4%;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    display: block;
+    margin-top: 5px;
+    border-radius: 0;
+    
+}
+
+textarea#desc {
+    display: block;
+    width: 500px;
+    height: 100px;
+    margin-top: 5px;
+}
+textarea#desd {
+    display: block;
+    width: 500px;
+    height: 100px;
+    margin-top: 5px;
+}
+textarea#desu {
+    display: block;
+    width: 500px;
+    height: 100px;
+    margin-top: 5px;
+}
+
+textarea#desele {
+    display: block;
+    width: 500px;
+    height: 100px;
+    margin-top: 5px;
+}
+.modal-footer{
+    
+    display: block;
+}
+
+button.crear {
+    position: absolute;
+    right: 10px;
+    color: #fff;
+    background-color: #e5312e;
+    font-size: 13px;
+    width: 20%;
+}
+button.cancelar {
+    color: #fff;
+    background-color: #999;
+    font-size: 13px;
+    width: 20%;
+}
+
+.text-area {
+    margin-top: 15px
+}
+
+.namec {
+    margin: 5%;
+}
+
+#dropdownMenuButton{
+    background-color: #359907;
+}
+
+h5{
+    color:#e5312e;
+}
+
+.modal-header{
+    margin-bottom: -10%;
+}
+
+.input-des{
+    width: 97%;
+    height: 35px;
+    line-height: 35px;
+}
+.input-ubi{
+    width: 97%;
+    height: 35px;
+    line-height: 35px;
+}
+
+.input-elemento{
+    
+    height: 35px;
+    line-height: 35px;
+    width: 97%;
+}
+
+div#add-curso {
+    width: 74%;
 }
