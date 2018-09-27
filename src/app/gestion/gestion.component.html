@@ -23,18 +23,61 @@
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Alta de Usuarios</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
           <div class="modal-body">
-            ...
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
-          </div>
+
+              <div class="namec">
+  
+                <div id="add-curso">
+                  <span>Agrega el nombre del Curso*</span>
+                  <input class="input-curso" type="text">
+                </div>
+  
+                <div class="dropdown" id="cestatus">
+  
+                  <span>Estatus</span>
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Activo
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Activo</a>
+                    <a class="dropdown-item" href="#">Inactivo</a>
+  
+                  </div>
+                </div>
+  
+                <div id="add-vmax">
+                    <span>Valor maximo</span>
+                    <input class="input-vmax" type="number">
+                  </div>
+    
+                  <div id="add-vmin">
+                    <span>Valor minimo</span>
+                    <input class="input-vmin" type="number">
+                  </div>
+
+                  <div class="top" id="add-ele">
+                      <span>Tipo de Elemento</span>
+      
+                      <select>
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="opel">Opel</option>
+                        <option value="audi">Audi</option>
+                      </select>
+                    </div>
+  
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" data-dismiss="modal" class="cancelar">Cancelar</button>
+              <button type="button" class="crear">Crear Usuario</button>
+            </div>
         </div>
       </div>
     </div>

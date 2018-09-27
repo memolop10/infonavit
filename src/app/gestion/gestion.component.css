@@ -115,3 +115,102 @@ body:after {
     .tab-pane {
         position: relative;
     }
+
+    .modal-header {
+        margin-bottom: -6%;
+    }
+    #add-curso{
+        display: inline-block;
+    }
+
+    .input-curso{
+        width: 97%;
+        height: 35px;
+        line-height: 35px;
+    }
+
+    .modal-content {
+        width: 120%;
+        background-color: rgba(235, 235, 235, 0.993);
+        
+    }
+
+    .namec {
+        margin: 5%;
+    }
+
+    #cestatus{
+        display:inline-block;
+        margin-left: 4%;
+    }
+
+    span {
+        display: flex;
+    }
+    
+
+    div#add-vmax {
+        display: inline-block;
+        width: 50%;
+    }
+    
+    div#add-vmin {
+        display: inline-block;
+        width: 50%;
+    }
+
+    #dropdownMenuButton[_ngcontent-c2] {
+        background-color: #359907;
+        width: 130%;
+        height: 38px;
+        margin-bottom: 4px;
+        border-radius: 0;
+    }
+    div#add-curso {
+        display: inline-block;
+        width: 70%;
+    }
+
+    input.input-vmax {
+        width: 90%;
+        
+    }
+    div#add-vmax {
+        margin-top: 20px;
+    }
+
+    input.input-vmin {
+        width: 90%;
+        
+    }
+    #add-ele{
+        display: inline-block;
+        width: 100%;
+        margin-top: 20px;
+        
+    }
+
+    select {
+        width: 95%;
+        height: 35px;
+    }
+
+    .modal-footer{
+    
+        display: block;
+    }
+    
+    button.crear {
+        position: absolute;
+        right: 10px;
+        color: #fff;
+        background-color: #e5312e;
+        font-size: 13px;
+        width: 20%;
+    }
+    button.cancelar {
+        color: #fff;
+        background-color: #999;
+        font-size: 13px;
+        width: 20%;
+    }

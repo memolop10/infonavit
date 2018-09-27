@@ -85,7 +85,7 @@ ul.nav.nav-tabs {
 
 span.icono-estatus {
     display: inline-block;
-    width: 16px;
+    width: 50%;
     height: 16px;
     background: url('/assets/estatusok.PNG');
     background-size: contain;
@@ -94,9 +94,10 @@ span.icono-estatus {
 
 }
 
+
 span.icono-estatus2 {
     display: inline-block;
-    width: 16px;
+    width: 50%;
     height: 16px;
     background: url('/assets/estatusno.PNG');
     background-size: contain;
@@ -158,6 +159,36 @@ th {
 
 #add-curso{
     display: inline-block;
+}
+
+#add-ele{
+    display: inline-block;
+    width: 100%;
+}
+
+input[type="url"] {
+    display: block;
+    width: 97%;
+}
+
+.top{
+    margin-top: 12px
+}
+button.crearea{
+    position: absolute;
+    right: 10px;
+    color: #fff;
+    background-color: #e5312e;
+    font-size: 11px;
+    width: 28%;
+    height: 25px;
+}
+
+select {
+    text-transform: none;
+    display: block;
+    width: 97%;
+    height: 30px;
 }
 
 .input-curso{
@@ -263,4 +294,97 @@ h5{
 
 div#add-curso {
     width: 74%;
+}
+
+div#sel-des {
+    width: 50%;
+    display: inline-block;
+
+}
+
+div#tipo-fil {
+    width: 50%;
+    display: inline-block;
+}
+
+div#add-vmax {
+    display: inline-block;
+    width: 50%;
+}
+
+div#add-vmin {
+    display: inline-block;
+    width: 50%;
+}
+
+ #sel-des select{
+    text-transform: none;
+    display: block;
+    width: 90%;
+    height: 30px;
+}
+
+#tipo-fil select{
+    text-transform: none;
+    display: block;
+    width: 90%;
+    height: 30px;
+}
+
+input.input-vmin {
+    width: 90%;
+}
+
+input.input-vmax {
+    width: 90%;
+}
+
+
+
+textarea#editdesc {
+    display: block;
+    width: 500px;
+    height: 100px;
+    margin-top: 5px;
+}
+
+div#curso-estatus {
+    display: inline-block;
+}
+
+div#namecurso {
+    display: inline-block;
+    
+    width: 70%;
+}
+
+span {
+    display: flex;
+}
+
+input.input-editcurso {
+    width: 90%;
+}
+
+div#curso-estatus{
+    display: inline-block;
+}
+
+#dropdownMenuButton.dropedit {
+    background-color: #359907;
+    width: 139px;
+}
+
+button.gcopiac{
+    color: #fff;
+    background-color: #999;
+    font-size: 13px;
+    width: 20%;
+    position: absolute;
+    right: 26%;
+}
+
+.modificacion{
+    
+    margin: 20px 0 20px 0;
 }

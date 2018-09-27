@@ -111,6 +111,7 @@
                 <td>23/may/2018</td>
                 <td><span class="icono-estatus"></span></td>
                 <td><span class="icono-edit catalogocur" data-toggle="modal" data-target="#mymodal"></span><span class="icono-exit"></span></td>
+
                 <!-- modal edit -->
                 <div class="modal fade" id="mymodal" role="dialog">
 
@@ -118,15 +119,52 @@
 
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h4 class="modal-title">Cssbutton Modal</h4>
+                        <h4 class="modal-title" style="color:#e5312e">Editar Curso</h4>
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
 
                       </div>
                       <div class="modal-body">
-                        <p>modal curso!</p>
+
+                        <div class="namec">
+
+                          <div id="namecurso">
+                            <div class="modificacion">
+                              <span>Última Modificación:</span>
+                            </div>
+
+                            <span>Nombre del Curso</span>
+                            <input class="input-editcurso" type="text">
+                          </div>
+
+                          <div class="dropdown" id="curso-estatus">
+
+                            <span>Estatus</span>
+                            <button class="btn btn-secondary dropdown-toggle dropedit" type="button" id="dropdownMenuButton"
+                              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Activo
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <a class="dropdown-item" href="#">Activo</a>
+                              <a class="dropdown-item" href="#">Inactivo</a>
+
+                            </div>
+                          </div>
+
+                          <div class="text-area">
+                            <span>Agrega la descripcion del curso</span>
+                            <textarea name="descripcionc" id="editdesc" cols="30" rows="10">
+
+                            </textarea>
+
+
+                          </div>
+
+                        </div>
                       </div>
                       <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" data-dismiss="modal" class="cancelar">Cancelar</button>
+                        <button type="button" class="crear">Guardar Cambios</button>
+                        <button type="button" class="gcopiac">Guardar Copia</button>
                       </div>
                     </div>
 
@@ -232,42 +270,42 @@
           </div>
           <div class="modal-body">
 
-              <div class="namec">
-  
-                <div id="add-curso">
-                  <span>Agrega el nombre del Destino*</span>
-                  <input class="input-des" type="text">
-                </div>
-  
-                <div class="dropdown" id="cestatus">
-  
-                  <span>Estatus</span>
-                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    Activo
-                  </button>
-                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#">Activo</a>
-                    <a class="dropdown-item" href="#">Inactivo</a>
-  
-                  </div>
-                </div>
-  
-                <div class="text-area">
-                  <span>Agrega la descripcion del Destino(máximo 250 caracteres)*</span>
-                  <textarea name="descripciond" id="desd" cols="30" rows="10">
-  
-                  </textarea>
-  
-  
-                </div>
-  
+            <div class="namec">
+
+              <div id="add-curso">
+                <span>Agrega el nombre del Destino*</span>
+                <input class="input-des" type="text">
               </div>
+
+              <div class="dropdown" id="cestatus">
+
+                <span>Estatus</span>
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  Activo
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Activo</a>
+                  <a class="dropdown-item" href="#">Inactivo</a>
+
+                </div>
+              </div>
+
+              <div class="text-area">
+                <span>Agrega la descripcion del Destino(máximo 250 caracteres)*</span>
+                <textarea name="descripciond" id="desd" cols="30" rows="10">
+
+                  </textarea>
+
+
+              </div>
+
             </div>
-            <div class="modal-footer">
-              <button type="button" data-dismiss="modal" class="cancelar">Cancelar</button>
-              <button type="button" class="crear">Crear Destino</button>
-            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" data-dismiss="modal" class="cancelar">Cancelar</button>
+            <button type="button" class="crear">Crear Destino</button>
+          </div>
         </div>
       </div>
     </div>
@@ -308,15 +346,52 @@
 
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h4 class="modal-title">Cssbutton Modal</h4>
+                      <h4 class="modal-title" style="color:#e5312e">Editar Destino</h4>
                       <button type="button" class="close" data-dismiss="modal">&times;</button>
 
                     </div>
                     <div class="modal-body">
-                      <p>modal destino!</p>
+
+                      <div class="namec">
+
+                        <div id="namecurso">
+                          <div class="modificacion">
+                            <span>Última Modificación:</span>
+                          </div>
+
+                          <span>Nombre del Destino</span>
+                          <input class="input-editcurso" type="text">
+                        </div>
+
+                        <div class="dropdown" id="curso-estatus">
+
+                          <span>Estatus</span>
+                          <button class="btn btn-secondary dropdown-toggle dropedit" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Activo
+                          </button>
+                          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Activo</a>
+                            <a class="dropdown-item" href="#">Inactivo</a>
+
+                          </div>
+                        </div>
+
+                        <div class="text-area">
+                          <span>Agrega la descripcion del Destino</span>
+                          <textarea name="descripciondes" id="editdesc" cols="30" rows="10">
+
+                            </textarea>
+
+
+                        </div>
+
+                      </div>
                     </div>
                     <div class="modal-footer">
-                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      <button type="button" data-dismiss="modal" class="cancelar">Cancelar</button>
+                      <button type="button" class="crear">Guardar Cambios</button>
+                      <button type="button" class="gcopiac">Guardar Copia</button>
                     </div>
                   </div>
 
@@ -433,42 +508,42 @@
           </div>
           <div class="modal-body">
 
-              <div class="namec">
-  
-                <div id="add-curso">
-                  <span>Agrega el nombre del Destino*</span>
-                  <input class="input-ubi" type="text">
-                </div>
-  
-                <div class="dropdown" id="cestatus">
-  
-                  <span>Estatus</span>
-                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    Activo
-                  </button>
-                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#">Activo</a>
-                    <a class="dropdown-item" href="#">Inactivo</a>
-  
-                  </div>
-                </div>
-  
-                <div class="text-area">
-                  <span>Agrega la descripcion de la Ubicacion(máximo 250 caracteres)*</span>
-                  <textarea name="descripcionu" id="desu" cols="30" rows="10">
-  
-                  </textarea>
-  
-  
-                </div>
-  
+            <div class="namec">
+
+              <div id="add-curso">
+                <span>Agrega el nombre del Destino*</span>
+                <input class="input-ubi" type="text">
               </div>
+
+              <div class="dropdown" id="cestatus">
+
+                <span>Estatus</span>
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  Activo
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Activo</a>
+                  <a class="dropdown-item" href="#">Inactivo</a>
+
+                </div>
+              </div>
+
+              <div class="text-area">
+                <span>Agrega la descripcion de la Ubicacion(máximo 250 caracteres)*</span>
+                <textarea name="descripcionu" id="desu" cols="30" rows="10">
+
+                  </textarea>
+
+
+              </div>
+
             </div>
-            <div class="modal-footer">
-              <button type="button" data-dismiss="modal" class="cancelar">Cancelar</button>
-              <button type="button" class="crear">Crear Ubicacion</button>
-            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" data-dismiss="modal" class="cancelar">Cancelar</button>
+            <button type="button" class="crear">Crear Ubicacion</button>
+          </div>
         </div>
       </div>
     </div>
@@ -506,15 +581,52 @@
 
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h4 class="modal-title">Cssbutton Modal</h4>
+                      <h4 class="modal-title" style="color:#e5312e">Editar Ubicacion</h4>
                       <button type="button" class="close" data-dismiss="modal">&times;</button>
 
                     </div>
                     <div class="modal-body">
-                      <p>modal ubicacion!</p>
+
+                      <div class="namec">
+
+                        <div id="namecurso">
+                          <div class="modificacion">
+                            <span>Última Modificación:</span>
+                          </div>
+
+                          <span>Nombre de la Ubicacion</span>
+                          <input class="input-editcurso" type="text">
+                        </div>
+
+                        <div class="dropdown" id="curso-estatus">
+
+                          <span>Estatus</span>
+                          <button class="btn btn-secondary dropdown-toggle dropedit" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Activo
+                          </button>
+                          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Activo</a>
+                            <a class="dropdown-item" href="#">Inactivo</a>
+
+                          </div>
+                        </div>
+
+                        <div class="text-area">
+                          <span>Agrega la descripcion de la Ubicacion</span>
+                          <textarea name="descripciondes" id="editdesc" cols="30" rows="10">
+
+                            </textarea>
+
+
+                        </div>
+
+                      </div>
                     </div>
                     <div class="modal-footer">
-                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      <button type="button" data-dismiss="modal" class="cancelar">Cancelar</button>
+                      <button type="button" class="crear">Guardar Cambios</button>
+                      <button type="button" class="gcopiac">Guardar Copia</button>
                     </div>
                   </div>
 
@@ -629,44 +741,44 @@
           </div>
 
 
-         <div class="modal-body">
+          <div class="modal-body">
 
-              <div class="namec">
-  
-                <div id="add-curso">
-                  <span>Agrega el nombre del Tipo de Elemento*</span>
-                  <input class="input-elemento" type="text">
-                </div>
-  
-                <div class="dropdown" id="cestatus">
-  
-                  <span>Estatus</span>
-                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    Activo
-                  </button>
-                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#">Activo</a>
-                    <a class="dropdown-item" href="#">Inactivo</a>
-  
-                  </div>
-                </div>
-  
-                <div class="text-area">
-                  <span>Agrega la descripcion del Tipo de Elemento(máximo 250 caracteres)*</span>
-                  <textarea name="descripcionele" id="desele" cols="30" rows="10">
-  
-                  </textarea>
-  
-  
-                </div>
-  
+            <div class="namec">
+
+              <div id="add-curso">
+                <span>Agrega el nombre del Tipo de Elemento*</span>
+                <input class="input-elemento" type="text">
               </div>
+
+              <div class="dropdown" id="cestatus">
+
+                <span>Estatus</span>
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  Activo
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Activo</a>
+                  <a class="dropdown-item" href="#">Inactivo</a>
+
+                </div>
+              </div>
+
+              <div class="text-area">
+                <span>Agrega la descripcion del Tipo de Elemento(máximo 250 caracteres)*</span>
+                <textarea name="descripcionele" id="desele" cols="30" rows="10">
+
+                  </textarea>
+
+
+              </div>
+
             </div>
-            <div class="modal-footer">
-              <button type="button" data-dismiss="modal" class="cancelar">Cancelar</button>
-              <button type="button" class="crear">Crear Ubicacion</button>
-            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" data-dismiss="modal" class="cancelar">Cancelar</button>
+            <button type="button" class="crear">Crear Ubicacion</button>
+          </div>
         </div>
       </div>
     </div>
@@ -684,7 +796,7 @@
               <tr>
                 <th scope="col">Nombre</th>
                 <th scope="col">Fecha de creacion</th>
-                <th scope="col">Estatus</th>
+                <th scope="col" class="col-ico">Estatus</th>
                 <th scope="col"></th>
               </tr>
             </thead>
@@ -704,15 +816,52 @@
 
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h4 class="modal-title">Cssbutton Modal</h4>
+                      <h4 class="modal-title" style="color:#e5312e">Editar Tipo de Elemento</h4>
                       <button type="button" class="close" data-dismiss="modal">&times;</button>
 
                     </div>
                     <div class="modal-body">
-                      <p>modal tipo de elemento!</p>
+
+                      <div class="namec">
+
+                        <div id="namecurso">
+                          <div class="modificacion">
+                            <span>Última Modificación:</span>
+                          </div>
+
+                          <span>Nombre de la Ubicacion</span>
+                          <input class="input-editcurso" type="text">
+                        </div>
+
+                        <div class="dropdown" id="curso-estatus">
+
+                          <span>Estatus</span>
+                          <button class="btn btn-secondary dropdown-toggle dropedit" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Activo
+                          </button>
+                          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Activo</a>
+                            <a class="dropdown-item" href="#">Inactivo</a>
+
+                          </div>
+                        </div>
+
+                        <div class="text-area">
+                          <span>Agrega la descripcion de la Ubicacion</span>
+                          <textarea name="descripciondes" id="editdesc" cols="30" rows="10">
+
+                            </textarea>
+
+
+                        </div>
+
+                      </div>
                     </div>
                     <div class="modal-footer">
-                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      <button type="button" data-dismiss="modal" class="cancelar">Cancelar</button>
+                      <button type="button" class="crear">Guardar Cambios</button>
+                      <button type="button" class="gcopiac">Guardar Copia</button>
                     </div>
                   </div>
 
@@ -820,17 +969,66 @@
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Crear Elemento de Aprendizaje</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
           <div class="modal-body">
-            ...
+
+            <div class="namec">
+
+              <div id="add-curso">
+                <span>Agrega el nombre del Elemento de Aprendizaje*</span>
+                <input class="input-elemento" type="text">
+              </div>
+
+
+
+              <div class="dropdown" id="cestatus">
+
+                <span>Estatus</span>
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  Activo
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Activo</a>
+                  <a class="dropdown-item" href="#">Inactivo</a>
+
+                </div>
+              </div>
+
+              <div class="top" id="add-ele">
+                <span>Tipo de Elemento*</span>
+
+                <select>
+                  <option value="volvo">Volvo</option>
+                  <option value="saab">Saab</option>
+                  <option value="opel">Opel</option>
+                  <option value="audi">Audi</option>
+                </select>
+              </div>
+
+              <div class="url top">
+                <span>Agrega la Url*</span>
+                <input type="url" name="url" placeholder="url">
+              </div>
+
+              <div class="text-area">
+                <span>Agrega la descripcion del Elemento de Aprendizaje(máximo 250 caracteres)*</span>
+                <textarea name="descripcionele" id="desele" cols="30" rows="10">
+
+                </textarea>
+
+
+              </div>
+
+            </div>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
+            <button type="button" data-dismiss="modal" class="cancelar">Cancelar</button>
+            <button type="button" class="crearea">Crear Elemento de Aprendizaje</button>
           </div>
         </div>
       </div>
@@ -871,16 +1069,67 @@
 
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h4 class="modal-title">Cssbutton Modal</h4>
+                      <h4 class="modal-title" style="color:#e5312e">Editar Elemento de Aprendizaje</h4>
                       <button type="button" class="close" data-dismiss="modal">&times;</button>
 
                     </div>
                     <div class="modal-body">
-                      <p>modal elementos de aprendizaje!</p>
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    </div>
+
+                        <div class="namec">
+            
+                          <div id="add-curso">
+                            <span>Nombre</span>
+                            <input class="input-elemento" type="text">
+                          </div>
+            
+            
+            
+                          <div class="dropdown" id="cestatus">
+            
+                            <span>Estatus</span>
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                              aria-haspopup="true" aria-expanded="false">
+                              Activo
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <a class="dropdown-item" href="#">Activo</a>
+                              <a class="dropdown-item" href="#">Inactivo</a>
+            
+                            </div>
+                          </div>
+            
+                          <div class="top" id="add-ele">
+                            <span>Tipo de Elemento</span>
+            
+                            <select>
+                              <option value="volvo">Volvo</option>
+                              <option value="saab">Saab</option>
+                              <option value="opel">Opel</option>
+                              <option value="audi">Audi</option>
+                            </select>
+                          </div>
+            
+                          <div class="url top">
+                            <span>URL</span>
+                            <input type="url" name="url" placeholder="url">
+                          </div>
+            
+                          <div class="text-area">
+                            <span>Descripcion del Elemento de Aprendizaje</span>
+                            <textarea name="descripcionele" id="desele" cols="30" rows="10">
+            
+                            </textarea>
+            
+            
+                          </div>
+            
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                          <button type="button" data-dismiss="modal" class="cancelar">Cancelar</button>
+                          <button type="button" class="crear">Guardar Cambios</button>
+                          <button type="button" class="gcopiac">Guardar Copia</button>
+                      </div>
                   </div>
 
                 </div>
@@ -1002,11 +1251,80 @@
             </button>
           </div>
           <div class="modal-body">
-            ...
+
+            <div class="namec">
+
+              <div id="add-curso">
+                <span>Agrega el nombre del Elemento de Aprendizaje*</span>
+                <input class="input-elemento" type="text">
+              </div>
+
+
+
+              <div class="dropdown" id="cestatus">
+
+                <span>Estatus</span>
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  Activo
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Activo</a>
+                  <a class="dropdown-item" href="#">Inactivo</a>
+
+                </div>
+              </div>
+
+              <div id="add-vmax">
+                <span>Valor maximo*</span>
+                <input class="input-vmax" type="number">
+              </div>
+
+              <div id="add-vmin">
+                <span>Valor minimo*</span>
+                <input class="input-vmin" type="number">
+              </div>
+
+              <div id="sel-des">
+                <span>Destino*</span>
+
+                <select>
+                  <option value="volvo">Volvo</option>
+                  <option value="saab">Saab</option>
+                  <option value="opel">Opel</option>
+                  <option value="audi">Audi</option>
+                </select>
+              </div>
+              <div id="tipo-fil">
+                <span>Tipo de Filtro*</span>
+
+                <select>
+                  <option value="volvo">Volvo</option>
+                  <option value="saab">Saab</option>
+                  <option value="opel">Opel</option>
+                  <option value="audi">Audi</option>
+                </select>
+              </div>
+
+              <!-- <div class="url top" >
+                <span>Agrega la Url*</span>
+                <input type="url" name="url" placeholder="url">
+              </div> -->
+
+              <div class="text-area">
+                <span>Agrega la descripcion del Elemento de Aprendizaje(máximo 250 caracteres)*</span>
+                <textarea name="descripcionele" id="desele" cols="30" rows="10">
+
+                </textarea>
+
+
+              </div>
+
+            </div>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
+            <button type="button" data-dismiss="modal" class="cancelar">Cancelar</button>
+            <button type="button" class="crearea">Crear Elemento de Aprendizaje</button>
           </div>
         </div>
       </div>
@@ -1045,16 +1363,87 @@
 
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h4 class="modal-title">Cssbutton Modal</h4>
+                      <h4 class="modal-title" style="color:#e5312e">Editar Filtro</h4>
                       <button type="button" class="close" data-dismiss="modal">&times;</button>
 
                     </div>
                     <div class="modal-body">
-                      <p>modal filtro!</p>
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    </div>
+
+                        <div class="namec">
+            
+                          <div id="add-curso">
+                            <span>Nombre</span>
+                            <input class="input-elemento" type="text">
+                          </div>
+            
+            
+            
+                          <div class="dropdown" id="cestatus">
+            
+                            <span>Estatus</span>
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                              aria-haspopup="true" aria-expanded="false">
+                              Activo
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <a class="dropdown-item" href="#">Activo</a>
+                              <a class="dropdown-item" href="#">Inactivo</a>
+            
+                            </div>
+                          </div>
+            
+                          <div id="add-vmax">
+                            <span>Valor maximo</span>
+                            <input class="input-vmax" type="number">
+                          </div>
+            
+                          <div id="add-vmin">
+                            <span>Valor minimo</span>
+                            <input class="input-vmin" type="number">
+                          </div>
+            
+                          <div id="sel-des">
+                            <span>Destino</span>
+            
+                            <select>
+                              <option value="volvo">Volvo</option>
+                              <option value="saab">Saab</option>
+                              <option value="opel">Opel</option>
+                              <option value="audi">Audi</option>
+                            </select>
+                          </div>
+                          <div id="tipo-fil">
+                            <span>Tipo de Filtro</span>
+            
+                            <select>
+                              <option value="volvo">Volvo</option>
+                              <option value="saab">Saab</option>
+                              <option value="opel">Opel</option>
+                              <option value="audi">Audi</option>
+                            </select>
+                          </div>
+            
+                          <!-- <div class="url top" >
+                            <span>Agrega la Url*</span>
+                            <input type="url" name="url" placeholder="url">
+                          </div> -->
+            
+                          <div class="text-area">
+                            <span>Agrega la descripcion del Elemento de Aprendizaje(máximo 250 caracteres)*</span>
+                            <textarea name="descripcionele" id="desele" cols="30" rows="10">
+            
+                            </textarea>
+            
+            
+                          </div>
+            
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                          <button type="button" data-dismiss="modal" class="cancelar">Cancelar</button>
+                          <button type="button" class="crear">Guardar Cambios</button>
+                          <button type="button" class="gcopiac">Guardar Copia</button>
+                      </div>
                   </div>
 
                 </div>
