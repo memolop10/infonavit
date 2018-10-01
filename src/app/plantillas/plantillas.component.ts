@@ -10,6 +10,9 @@ export class PlantillasComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
+
+    
   }
 
 }

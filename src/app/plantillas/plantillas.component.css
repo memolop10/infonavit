@@ -273,3 +273,72 @@ button#cancel {
     background-color: #aaa;
     color:#fff;
 }
+
+.dropdown-toggle::after {
+    margin-top: 8px;
+    float: right;
+    margin-right: 4px;
+}
+
+.elea {
+    display: inline-block;
+    width: 100%;
+}
+.elea2 {
+    display: inline-block;
+    width: 100%;
+    padding-top: 10px;
+}
+select {
+    width: 100%;
+    height: 35px;
+    margin-top: 10px;
+}
+
+.modal-footer[_ngcontent-c2] {
+    display: block;
+}
+button.cancelarpan{
+    color: #fff;
+    background-color: #999;
+    font-size: 13px;
+    width: 20%;
+    position: absolute;
+    left: 15px;
+}
+button.addpan{
+    position: absolute;
+    right: 17px;
+    color: #fff;
+    background-color: #e5312e;
+    font-size: 11px;
+    width: 27%;
+    height: 25px;
+}
+
+.modal-footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 1rem;
+    border-top: 1px solid #e9ecef;
+    height: 61px;
+}
+
+.modal-content{
+    background-color: rgba(235, 235, 235, 0.993);
+}
+
+#editar{
+    background-color: aqua;
+    height: 400px;
+    width: 500px;
+    display: none;
+}
+
+.tab-content[_ngcontent-c2] {
+    min-height: 515px;
+    width: 95%;
+    border: 1px solid #dee2e6;
+    background: white;
+}

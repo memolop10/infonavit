@@ -158,14 +158,14 @@ body:after {
         display: inline-block;
         width: 50%;
     }
-
-    #dropdownMenuButton[_ngcontent-c2] {
+    button#dropdownMenuButton {
         background-color: #359907;
         width: 130%;
         height: 38px;
         margin-bottom: 4px;
         border-radius: 0;
     }
+
     div#add-curso {
         display: inline-block;
         width: 70%;

@@ -154,11 +154,11 @@ ul.nav.nav-tabs {
     margin-top: 7px;
 }
 
-#sdestino {
-
+div#sdestino {
     display: inline-block;
     width: 48%;
 }
+
 
 .btn-group[_ngcontent-c2] {
     display: inline-block;
@@ -178,11 +178,11 @@ ul.nav.nav-tabs {
     margin-top: 3px;
 }
 
-.botton {
+.botton[_ngcontent-c2] {
     position: absolute;
     text-align: center;
     margin-top: 10px;
-    right: 0;
+    right: 0px;
     width: 172px;
     margin-right: 20px;
     background: #aa1119;
@@ -193,7 +193,7 @@ ul.nav.nav-tabs {
     position: absolute;
     text-align: center;
     margin-top: 10px;
-    right: 0;
+    right: 0px;
     width: 172px;
     margin-right: 20px;
     background: #aa1119;
@@ -208,8 +208,7 @@ ul.nav.nav-tabs {
     margin-left: 25px;
     margin-top: 25px;
 }
-
-#elemento-a {
+div#elemento-a {
     display: inline-block;
     width: 48%;
 }
