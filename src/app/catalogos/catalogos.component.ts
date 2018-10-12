@@ -42,8 +42,47 @@ export class CatalogosComponent implements OnInit {
      function doClick(a, b){
       $(a).click(function (){
         $(b).modal('show');
+
        });
+
+      
+
+
+       
+
+
+       
      }
+
+
+     $(document).ready(function(){
+      //alert("<div style='color:red;'></div>");
+     
+     // $('#tcurso').html('<button style="color:red;"  class="icono-estatus" type="button" onclick="alert()">Click Me!</button>');
+        
+      $.getJSON("http://qa.visionariagames.com/adminws/curso/lista",function(data){
+              var sample_data = '';
+              $.each(data,function(key, value){
+                  sample_data += '<tr>';
+                  sample_data += '<td>'+ value.nombre +'</td>';
+                  sample_data += '<td>'+ value.fechaCreacion +'</td>';
+                  if(value.estatus === 1){
+
+                    
+
+                  sample_data += '<td><span class="icono-estatus">true</span></td>';}
+                 // sample_data += '<td>true</td>';}
+                   else{
+                    sample_data += '<td><span class="icono-estatus2">false</span></td>';
+                   // sample_data += '<td>falso</td>';
+                  }
+                  sample_data += '<td><span class="icono-edit catalogocur" data-toggle="modal" data-target="#mymodal"></span><span class="icono-exit"></span><td>';
+                   sample_data += '</tr>';
+              });
+              $('#tcurso').append(sample_data);
+
+      });
+  });
   
 
     

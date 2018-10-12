@@ -16,7 +16,7 @@ export class SidebarComponent implements OnInit {
 
   $(document).ready(function(){
 
-    console.log('Hola')
+    
 
     $('.fred-li').click(function(){
 
@@ -29,7 +29,12 @@ export class SidebarComponent implements OnInit {
       }
     })
 
+    
+
   })
+
+  var obj = $.parseJSON( '{ "name": "John" }' );
+        console.log( obj.name === "John" );
 
   }
 
